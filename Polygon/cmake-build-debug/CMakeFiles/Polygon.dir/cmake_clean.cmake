@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Polygon.dir/main.c.obj"
+  "CMakeFiles/Polygon.dir/main.c.o"
   "Polygon.pdb"
-  "Polygon.exe"
-  "Polygon.exe.manifest"
-  "libPolygon.dll.a"
+  "Polygon"
 )
 
 # Per-language clean rules from dependency scanning.
