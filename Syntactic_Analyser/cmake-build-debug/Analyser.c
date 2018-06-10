@@ -394,8 +394,8 @@ int expression(){
     if(strcmp(token, "ID") == 0){
         fileadd = ftell(fp);                //remember file's location
         fscanf(fp, "%s %s\n", &token2, &token3);
-        fprintf(fout, "%s %s\n", token2, token3);
         if(strcmp(token2, "=") == 0){
+            fprintf(fout, "%s %s\n", token2, token3);
             fscanf(fp, "%s %s\n", &token, &token1);
             fprintf(fout, "%s %s\n", token, token1);
             es = bool_expr();
@@ -403,8 +403,6 @@ int expression(){
                 return(es);
         }else{
             fseek(fp, fileadd, 0);
-//          fprintf(fout, "%s %s\n", token, token1);
-            es = bool_expr();
             if(es > 0)
                 return(es);
         }
