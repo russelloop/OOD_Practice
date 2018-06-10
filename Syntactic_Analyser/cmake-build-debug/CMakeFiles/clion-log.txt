@@ -1,0 +1,4 @@
+C:\Users\reaso\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.5087.36\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\reaso\CLionProjects\Syntactic_Analyser
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/reaso/CLionProjects/Syntactic_Analyser/cmake-build-debug

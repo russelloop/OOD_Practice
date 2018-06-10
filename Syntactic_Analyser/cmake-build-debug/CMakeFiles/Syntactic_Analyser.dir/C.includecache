@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/reaso/CLionProjects/Syntactic_Analyser/cmake-build-debug/Analyser.c
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+
+C:/Users/reaso/CLionProjects/Syntactic_Analyser/cmake-build-debug/Lexical_ANA.c
+stdio.h
+-
+ctype.h
+-
+mem.h
+-
+
+C:/Users/reaso/CLionProjects/Syntactic_Analyser/main.c
+stdio.h
+-
+ctype.h
+-
+

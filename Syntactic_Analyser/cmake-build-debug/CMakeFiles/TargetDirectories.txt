@@ -1,0 +1,3 @@
+C:/Users/reaso/CLionProjects/Syntactic_Analyser/cmake-build-debug/CMakeFiles/Syntactic_Analyser.dir
+C:/Users/reaso/CLionProjects/Syntactic_Analyser/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/reaso/CLionProjects/Syntactic_Analyser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
