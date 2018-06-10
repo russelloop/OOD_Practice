@@ -24,6 +24,12 @@ int while_stat();
 //<while_stat> ::= while(<expr>)<statement>
 int for_stat();
 //<for_stat> ::= for(<expr>, <expr>, <expr>)<statement>
+int switch_stat();
+//<switch_stat> ::= switch(<expr>){<case_stat>}
+int case_stat();
+//<case_stat> :: = case<factor>:<expression>
+int break_stat();
+//<break_stat> ::= break;
 int write_stat();
 //<write_stat> ::= write<expression>
 int read_stat();
@@ -55,7 +61,6 @@ int TESTparse(){
     strcpy(Writeout, Scanout);
     Writeout[5] = '\0';
     strcat(Writeout, "_sa.txt");     //rename
-    printf("%s\n", Writeout);
     if((fp = fopen(Scanout,"r")) == NULL){
         printf("\nERROR: FAIL TO OPERN %s \n", Scanout);
         es = 10;
@@ -78,6 +83,7 @@ int TESTparse(){
         case 5: printf("Missing (\n"); break;
         case 6: printf("Missing )\n"); break;
         case 7: printf("Missing Operate Number\n"); break;
+        case 8: printf("Missing : \n"); break;
     }
     fclose(fp);
     return(es);
@@ -161,10 +167,16 @@ int statement(){
         es = read_stat();
     if(es == 0 && strcmp(token, "write") == 0)
         es = write_stat();
+    if(es == 0 && strcmp(token, "switch") == 0)
+        es = switch_stat();
+    if(es == 0 && strcmp(token, "case") == 0)
+        es = case_stat();
     if(es == 0 && strcmp(token, "{") == 0)
         es = compound_stat();
     if(es == 0 && strcmp(token, "ID") == 0 || strcmp(token, "NUM") == 0)
         es = expression_stat();
+    if(es == 0 && strcmp(token, "break") == 0)
+        es = break_stat();
     return (es);
 }
 
@@ -266,6 +278,61 @@ int write_stat(){
     return (es);
 }
 
+//<switch_stat> ::= switch(<expr>){<case_stat>}
+int switch_stat(){
+    int es = 0;
+    fscanf(fp, "%s %s\n", &token, token1);
+    fprintf(fout, "%s %s\n", token, token1);
+    if(strcmp(token, "("))
+        return(es = 5);
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);
+    es = expression();
+    if(es > 0)
+        return(es);
+    if(strcmp(token, ")"))
+        return (es = 6);
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);
+    if (strcmp(token, "{")){
+        es = 1;
+        return(es);
+    }
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);
+    es = statement();
+    return (es);
+}
+
+//<case_stat> ::= case<factor>:<statement>
+int case_stat(){
+    int es = 0;
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);
+    if(strcmp(token, "NUM")){
+        es = 7;
+        return (es);
+    }
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);
+    if(strcmp(token, ":"))
+        return (es = 8);
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);
+    es = statement();
+    return (es);
+}
+
+int break_stat(){
+    int es = 0;
+    fscanf(fp, "%s %s\n", &token, token1);
+    fprintf(fout, "%s %s\n", token, token1);
+    if(strcmp(token, ";"))
+        return (es = 4);
+    else
+        return (es);
+}
+
 //<read_stat> ::= read ID
 int read_stat(){
     int es = 0;
@@ -329,7 +396,7 @@ int expression(){
                 return(es);
         }else{
             fseek(fp, fileadd, 0);
-            fprintf(fout, "%s %s\n", token, token1);
+//          fprintf(fout, "%s %s\n", token, token1);
             es = bool_expr();
             if(es > 0)
                 return(es);

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/reaso/CLionProjects/Syntactic_Analyser/cmake-build-debug/Analyser.c
+/Users/dashwood/gitRepo/workBin/Syntactic_Analyser/cmake-build-debug/Analyser.c
 stdio.h
 -
 ctype.h
@@ -14,15 +14,15 @@ ctype.h
 string.h
 -
 
-C:/Users/reaso/CLionProjects/Syntactic_Analyser/cmake-build-debug/Lexical_ANA.c
+/Users/dashwood/gitRepo/workBin/Syntactic_Analyser/cmake-build-debug/Lexical_ANA.c
+string.h
+-
 stdio.h
 -
 ctype.h
 -
-mem.h
--
 
-C:/Users/reaso/CLionProjects/Syntactic_Analyser/main.c
+/Users/dashwood/gitRepo/workBin/Syntactic_Analyser/main.c
 stdio.h
 -
 ctype.h

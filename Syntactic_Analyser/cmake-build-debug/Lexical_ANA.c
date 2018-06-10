@@ -7,20 +7,20 @@
     + Progress NUM
     + Progress Singleword "+-*(){};.:"
     + Progress Doubleword "><=!"
-    + Progress comments like /**\/
  @ v1.0.1
     + Progress comments like //
     ~ Progress more Keyword like "double"
     ~ Progress more Keyword like "switch"
 */
 
+#include <string.h>
 #include <stdio.h>
 #include <ctype.h>
-#include <mem.h>
+
 
 //Define a reserved word table
-#define keywordSum 8
-char *keyword[keywordSum] = {"if", "else", "for", "while", "do", "int", "read", "write"};
+#define keywordSum 10
+char *keyword[keywordSum] = {"if", "else", "for", "while", "do", "int", "read", "write", "switch", "case"};
 //Define single demarcation
 char singleword[50] =  "+-*(){};.:";
 //Define double demarcation 's first char
