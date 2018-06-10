@@ -1,0 +1,15 @@
+{ {
+int int
+ID a
+; ;
+int int
+ID b
+; ;
+double double
+ID c
+; ;
+float float
+ID d
+; ;
+ID b
+= =

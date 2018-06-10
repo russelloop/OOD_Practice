@@ -1,11 +1,11 @@
 {
     int a;
     int b;
+    double c;
+    float d;
     b = 0;
-    switch(b){
-        case 1:
-            a = 2;
+    if(b>0){
+        b = b+1;
+        a = b;
     }
-    int c;
-    c = 0;
 }

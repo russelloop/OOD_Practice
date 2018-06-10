@@ -19,8 +19,8 @@
 
 
 //Define a reserved word table
-#define keywordSum 10
-char *keyword[keywordSum] = {"if", "else", "for", "while", "do", "int", "read", "write", "switch", "case"};
+#define keywordSum 12
+char *keyword[keywordSum] = {"if", "else", "for", "while", "do", "int", "double", "float", "read", "write", "switch", "case"};
 //Define single demarcation
 char singleword[50] =  "+-*(){};.:";
 //Define double demarcation 's first char

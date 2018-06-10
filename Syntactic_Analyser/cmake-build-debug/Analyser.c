@@ -98,8 +98,8 @@ int program(){
         es = 1;
         return(es);
     }
-    fscanf(fp, "%s %s\n", &token, &token1);
-    fprintf(fout, "%s %s\n", token, token1);
+    /*fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);*/
     es = declaration_list();
     if(es > 0)
         return(es);
@@ -115,12 +115,19 @@ int program(){
 
 //<declaration_list> ::= {<declaration_stat}
 int declaration_list(){
-    int es = 0;
-    while(strcmp(token, "int") == 0){
+    int es, n = 0;
+/*    while(strcmp(token, "int") == 0){
         es = declaration_stat();
         if(es > 0)
             return(es);
-    }
+    }*/
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);
+    do {
+        es = declaration_stat();
+        if(es > 0)
+            return (es);
+    }while(strcmp(token, "int") == 0 || strcmp(token, "double") == 0 || strcmp(token, "float") == 0);
     return(es);
 }
 
@@ -371,7 +378,7 @@ int expression_stat(){
         return(es);
     if(es == 0 && strcmp(token, ";") == 0){
         fscanf(fp, "%s %s\n", &token, &token1);
-        fprintf(fout, "%s %s\n", token,token1);
+        fprintf(fout, "%s %s\n", token,token1); // } is here
         return (es);
     }else{
         es = 4;
