@@ -1,0 +1,14 @@
+{
+    int a 
+    if(a = b){
+        read ;
+    }else{
+        a = b; 
+    }
+    while(){
+    read b;
+        for(a = 1; a > b a = a + 1){
+            write(a + b);
+        }
+    }
+}

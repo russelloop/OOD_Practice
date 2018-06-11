@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/compiling_01.dir/main.c.o CMakeFiles/compiling_01.dir/wordConsole.c.o CMakeFiles/compiling_01.dir/Syntax.c.o CMakeFiles/compiling_01.dir/G_main.c.o  -o compiling_01 

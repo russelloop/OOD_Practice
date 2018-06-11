@@ -1,0 +1,16 @@
+{
+    int a;
+    switch(a){
+
+    }
+
+    switch(b){
+        case 1:{
+            a + b;
+            break;
+        }
+        default : {
+
+        }
+    }
+}
