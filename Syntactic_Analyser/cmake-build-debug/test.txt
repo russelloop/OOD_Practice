@@ -1,10 +1,16 @@
 {
     int a;
     int b;
-    a = 1;
+    a = -6;
     b = 2 * 4;
     if(b >= a + b){
-        b = b+1;
-        a = b;
+        b = b-1;
+        a = a+1;
+    }
+    for(a = 1; a<10; a=a+1){
+        b = b/2;
+    }
+    while(a < 100){
+        a = a*2;
     }
 }

@@ -204,12 +204,16 @@ int if_stat(){
     fscanf(fp, "%s %s\n", &token, &token1);
     fprintf(fout, "%s %s\n", token, token1);
     es = statement();
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);    //push in one more
     if(es > 0)
         return (es);
     if(strcmp(token, "eles") == 0){
         fscanf(fp, "%s %s\n", &token, &token1);
         fprintf(fout, "%s %s\n", token, token1);
         es = statement();
+        fscanf(fp, "%s %s\n", &token, &token1);
+        fprintf(fout, "%s %s\n", token, token1);    //push in one more
         if(es > 0)
             return (es);
     }
@@ -233,6 +237,8 @@ int while_stat(){
     fscanf(fp, "%s %s\n", &token, &token1);
     fprintf(fout, "%s %s\n", token, token1);
     es = statement();
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);    //push in one more
     return (es);
 }
 
@@ -267,6 +273,8 @@ int for_stat(){
     fscanf(fp, "%s %s\n", &token, &token1);
     fprintf(fout, "%s %s\n", token, token1);
     es = statement();
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);    //push in one more
     return (es);
 }
 
@@ -308,6 +316,8 @@ int switch_stat(){
     fscanf(fp, "%s %s\n", &token, &token1);
     fprintf(fout, "%s %s\n", token, token1);
     es = statement();
+    fscanf(fp, "%s %s\n", &token, &token1);
+    fprintf(fout, "%s %s\n", token, token1);
     return (es);
 }
 
@@ -403,6 +413,7 @@ int expression(){
                 return(es);
         }else{
             fseek(fp, fileadd, 0);
+            es = bool_expr();
             if(es > 0)
                 return(es);
         }
@@ -484,6 +495,10 @@ int factor(){
         fscanf(fp, "%s %s\n", &token, &token1);
         fprintf(fout, "%s %s\n", token, token1);
     }else{
+        if(strcmp(token, "-") == 0){                     //analyse negative number
+            fscanf(fp, "%s %s\n", &token, &token1);
+            fprintf(fout, "%s %s\n", token, token1);
+        }
         if(strcmp(token, "ID") == 0 || strcmp(token, "NUM") == 0){
             fscanf(fp, "%s %s\n", &token, &token1);
             fprintf(fout, "%s %s\n", token, token1);
