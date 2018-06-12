@@ -15,9 +15,9 @@ int G_main(){
 
     es = TESTparse();
     if(es == 0)
-        printf("success");
+        printf("Grammatical Analysis Success!");
     else
-        printf("error");
+        printf("Grammatical Analysis Error!");
 
 
     return 0;

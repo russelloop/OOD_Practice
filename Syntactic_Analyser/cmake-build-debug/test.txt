@@ -7,10 +7,15 @@
         b = b-1;
         a = a+1;
     }
-    for(a = 1; a<10; a=a+1){
+    for(a = 1; a < 10; a = a + 1){
         b = b/2;
     }
     while(a < 100){
-        a = a*2;
+        a = a * 2;
+    }
+    switch(a){
+        case1: b = 1; break;
+        case2: b = 3; break;
+        default: break;
     }
 }

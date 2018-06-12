@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/dashwood/Downloads/compiling_01/cmake-build-debug"/>
+				<Option working_dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/dashwood/Downloads/compiling_01/cmake-build-debug"/>
+				<Option working_dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/dashwood/Downloads/compiling_01/cmake-build-debug"/>
+				<Option working_dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="compiling_01">
-				<Option output="/Users/dashwood/Downloads/compiling_01/cmake-build-debug/compiling_01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/dashwood/Downloads/compiling_01/cmake-build-debug"/>
+				<Option output="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/compiling_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 compiling_01"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 compiling_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="compiling_01/fast">
-				<Option output="/Users/dashwood/Downloads/compiling_01/cmake-build-debug/compiling_01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/dashwood/Downloads/compiling_01/cmake-build-debug"/>
+				<Option output="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/compiling_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,32 +73,32 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 compiling_01/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 compiling_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dashwood/Downloads/compiling_01\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dashwood/Downloads/compiling_01/G_main.c">
+		<Unit filename="/Users/dashwood/Downloads/compiling_01 2/G_main.c">
 			<Option target="compiling_01"/>
 		</Unit>
-		<Unit filename="/Users/dashwood/Downloads/compiling_01/Syntax.c">
+		<Unit filename="/Users/dashwood/Downloads/compiling_01 2/Syntax.c">
 			<Option target="compiling_01"/>
 		</Unit>
-		<Unit filename="/Users/dashwood/Downloads/compiling_01/compiling_01.h">
+		<Unit filename="/Users/dashwood/Downloads/compiling_01 2/compiling_01.h">
 			<Option target="compiling_01"/>
 		</Unit>
-		<Unit filename="/Users/dashwood/Downloads/compiling_01/compilint_02.h">
+		<Unit filename="/Users/dashwood/Downloads/compiling_01 2/compilint_02.h">
 			<Option target="compiling_01"/>
 		</Unit>
-		<Unit filename="/Users/dashwood/Downloads/compiling_01/main.c">
+		<Unit filename="/Users/dashwood/Downloads/compiling_01 2/main.c">
 			<Option target="compiling_01"/>
 		</Unit>
-		<Unit filename="/Users/dashwood/Downloads/compiling_01/wordConsole.c">
+		<Unit filename="/Users/dashwood/Downloads/compiling_01 2/wordConsole.c">
 			<Option target="compiling_01"/>
 		</Unit>
-		<Unit filename="/Users/dashwood/Downloads/compiling_01/CMakeLists.txt">
+		<Unit filename="/Users/dashwood/Downloads/compiling_01 2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -22,7 +22,7 @@
 
 
 char *keyword[keywordSum] = {
-        "if", "else", "for", "while", "do", "int", "read", "write", "switch", "case", "let",
+        "if", "else", "for", "while", "do", "int", "double", "float", "read", "write", "switch", "case", "let",
         "break", "default"
 };
 

@@ -10,9 +10,9 @@ int main() {
     int es = 0;
     es = TESTscan();
     if(es > 0)
-        printf("error ! ! ! fuck it ! \n");
+        printf("Lexical Analyse Error! \n");
     else
-        printf("success!! fuck it!! \n");
+        printf("Lexical Analyse Success! \n");
     G_main();
 
     return 0;

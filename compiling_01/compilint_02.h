@@ -29,3 +29,6 @@ int bool_expr();
 int additive_expr();
 int term();
 int factor();
+int switch_stat();
+int case_stat();
+int break_stat();

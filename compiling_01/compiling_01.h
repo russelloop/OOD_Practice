@@ -7,7 +7,7 @@
 #include <string.h>
 
 
-#define keywordSum 13
+#define keywordSum 15
 
 
 int TESTscan ();

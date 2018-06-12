@@ -1,0 +1,130 @@
+{	{
+|-------------declaration_list-------------|
+int	int
+ID	a
+ERROR ! -------------undefined character :
+int	int
+ID	a
+ERROR ! -------------missing the ';'
+double	double
+ERROR ! -------------missing the 'ID'
+;	;
+float	float
+ID	c
+;	;
+ID	a
+=	=
+-	-
+NUM	111
+;	;
+|----------------switch_stat---------------|
+switch	switch
+(	(
+ID	a
+)	)
+{	{
+case	case
+NUM	1
+:	:
+{	{
+|------------------if_stat-----------------|
+if	if
+(	(
+ID	a
+=	=
+NUM	0
+)	)
+{	{
+|----------read_stat-----------|
+read	read
+ID	b
+;	;
+}	}
+else	else
+{	{
+|----------write_stat----------|
+write	write
+ERROR ! -------------missing the object
+;	;
+}	}
+|----------break_stat----------|
+break	break
+;	;
+}	}
+case	case
+NUM	2
+:	:
+{	{
+|----------------while_stat----------------|
+while	while
+(	(
+ID	a
+>=	>=
+ID	b
+ERROR ! -------------missing the ')'
+{	{
+ID	a
+=	=
+ID	a
++	+
+ID	b
+*	*
+ID	c
+;	;
+}	}
+|----------break_stat----------|
+break	break
+;	;
+}	}
+case	case
+NUM	3
+:	:
+{	{
+|-----------------for_stat-----------------|
+for	for
+(	(
+ID	a
+=	=
+NUM	1
+ERROR ! -------------missing the ';'
+ID	a
+>	>
+ID	c
+ERROR ! -------------missing the ';'
+ID	a
+=	=
+ID	a
++	+
+NUM	1
+)	)
+{	{
+|-----------------for_stat-----------------|
+for	for
+(	(
+ID	b
+=	=
+NUM	1
+;	;
+ID	b
+>	>
+ID	c
+;	;
+ID	b
+=	=
+ID	b
++	+
+NUM	2
+)	)
+{	{
+}	}
+}	}
+|----------break_stat----------|
+break	break
+;	;
+}	}
+default	default
+:	:
+{	{
+}	}
+}	}
+}	}

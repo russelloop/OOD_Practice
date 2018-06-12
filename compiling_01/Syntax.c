@@ -1,8 +1,15 @@
 
 #include "compilint_02.h"
 
+/*
+ * 语法分析器
+ * Switch-case
+ * 错误分析处理
+ *
+ */
 char token[20], token1[40]; 		//to save the id and name
 extern char Scanout[300];			//the lexical result
+char Writeout[300];                //name of output file
 FILE *fp, *fout;
 char ScansyOut[300];
 
@@ -10,13 +17,14 @@ char ScansyOut[300];
 //
 int TESTparse(){
     int es = 0;
+    strcpy(Writeout, Scanout);
+    Writeout[3] = '\0';
+    strcat(Writeout, "_syn.txt");     //rename
     if ((fp = fopen(Scanout, "r")) == NULL){
         printf("open file error fuck it !!!\n");
         es = 10;
     }
-    printf("input the save file name \n");
-    scanf("%s", &ScansyOut);
-    if((fout = fopen(ScansyOut, "w")) == NULL){
+    if((fout = fopen(Writeout, "w")) == NULL){
         printf("open file error fuck it !!!\n");
         es = 10;
     }
@@ -59,11 +67,17 @@ int program(){
 //
 int declaration_list(){
     fprintf(fout, "|-------------declaration_list-------------|\n");
-    int es = 0;
+    /*int es = 0;
     while(strcmp(token, "int") == 0){
         es = declaration_stat();
     }
-    return es;
+    return es;*/
+    int es;
+    do {
+        es = declaration_stat();
+    }while(strcmp(token, "int") == 0 || strcmp(token, "double") == 0 || strcmp(token, "float") == 0);
+
+    return(es);
 }
 //declaration_stat -> int ID;
 //
@@ -86,7 +100,13 @@ int declaration_stat(){
     }
     // if missing ;
     if(strcmp(token, ";")){
-        fprintf(fout, "ERROR ! -------------missing the ';'\n");
+        if(strcmp(token, "int") == 0 || strcmp(token, "double") == 0 || strcmp(token, "float") == 0){
+            fprintf(fout, "ERROR ! -------------missing the ';'\n");
+        }
+        else{
+            fprintf(fout, "ERROR ! -------------undefined character %s\n", token);
+            fscanf(fp, "%s %s\n", &token, &token1);
+        }
     }else{
         fprintf(fout, "%s\t%s\n", token, token1);
         fscanf(fp, "%s %s\n", &token, &token1);
@@ -108,32 +128,35 @@ int statement_list(){
 int statement(){
     int es = 0;
     // you can add what you want in here
-    if(es == 0 && strcmp(token, "if") == 0){
-        es = if_stat();
-    }
-    if(es == 0 && strcmp(token, "while") == 0){
-        es = while_stat();
-    }
-    if(es == 0 && strcmp(token, "for") == 0){
-        es = for_stat();
-    }
-    if(es == 0 && strcmp(token, "write") == 0){
-        es = write_stat();
-    }
-    if(es == 0 && strcmp(token, "read") == 0){
-        es = read_stat();
-    }
-    if(es == 0 && strcmp(token, "switch") == 0)
-        es = switch_stat();
-    if(es == 0 && strcmp(token, "break") == 0)
-        es = break_stat();
-    // compound_stat
-    if(es == 0 && strcmp(token, "{") == 0)
-        es = compound_stat();
-    // expression_stat
-    if(es == 0 && strcmp(token, "ID") == 0 || strcmp(token, "NUM") == 0 || strcmp(token, "(") == 0){
-        es = expression_stat();
-    }
+        if (es == 0 && strcmp(token, "if") == 0) {
+            es = if_stat();
+        }
+        if (es == 0 && strcmp(token, "while") == 0) {
+            es = while_stat();
+        }
+        if (es == 0 && strcmp(token, "for") == 0) {
+            es = for_stat();
+        }
+        if (es == 0 && strcmp(token, "write") == 0) {
+            es = write_stat();
+        }
+        if (es == 0 && strcmp(token, "read") == 0) {
+            es = read_stat();
+        }
+        if (es == 0 && strcmp(token, "switch") == 0) {
+            es = switch_stat();
+        }
+        if (es == 0 && strcmp(token, "break") == 0) {
+            es = break_stat();
+        }
+        // compound_stat
+        if (es == 0 && strcmp(token, "{") == 0) {
+            es = compound_stat();
+        }
+        // expression_stat
+        if (es == 0 && strcmp(token, "ID") == 0 || strcmp(token, "NUM") == 0 || strcmp(token, "(") == 0) {
+            es = expression_stat();
+        }
     return es;
 }
 //if_stat -> if(<expression>) <statement> [else<statement>]
@@ -145,7 +168,13 @@ int if_stat(){
     fscanf(fp, "%s %s \n" , &token,&token1);
     //loss the (
     if(strcmp(token, "(")){
-        fprintf(fout, "ERROR ! -------------missing the '('\n");
+        if(strcmp(token, "ID") == 0){
+            fprintf(fout, "ERROR ! -------------missing the '('\n");
+        }
+        else{
+            fprintf(fout, "ERROR ! -------------undefined character %s\n", token);
+            fscanf(fp, "%s %s\n", &token, &token1);
+        }
     } else{
         fprintf(fout, "%s\t%s\n", token, token1);
         fscanf(fp, "%s %s \n" , &token,&token1);
@@ -153,7 +182,13 @@ int if_stat(){
     es = expression();
     // loss the )
     if(strcmp(token, ")")){
-        fprintf(fout, "ERROR ! -------------missing the ')'\n");
+        if(strcmp(token, "{") == 0){
+            fprintf(fout, "ERROR ! -------------missing the ')'\n");
+        }
+        else{
+            fprintf(fout, "ERROR ! -------------undefined character %s\n", token);
+            fscanf(fp, "%s %s\n", &token, &token1);
+        }
     } else{
         fprintf(fout, "%s\t%s\n", token, token1);
         fscanf(fp, "%s %s \n" , &token,&token1);
@@ -418,6 +453,10 @@ int factor(){
     }
     //or it's ID or NUM
     else{
+        if(strcmp(token, "-") == 0){                     //analyse negative number
+            fprintf(fout, "%s\t%s\n", token, token1);
+            fscanf(fp, "%s %s\n", &token, &token1);
+        }
         if(strcmp(token, "ID") == 0 || strcmp(token, "NUM") == 0){
             fprintf(fout, "%s\t%s\n", token, token1);
             fscanf(fp, "%s %s\n", &token, &token1);
@@ -433,7 +472,6 @@ int factor(){
     }
     return es;
 }
-
 // <switch_stat> -> switch(ID){<case_stat>}
 //
 int switch_stat(){
@@ -536,21 +574,3 @@ int break_stat(){
     }
     return es;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
