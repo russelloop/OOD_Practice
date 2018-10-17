@@ -1,0 +1,1658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1cc20417-9603-4b76-8af4-56c71d149ff5" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.4345487">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Canvas.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/mycanvas/Canvas.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="810">
+                  <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mycanvas/Start.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#178#179#0" expanded="true" />
+                    <element signature="e#231#232#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FileSys.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mycanvas/FileSys.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-13">
+                  <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Support.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mycanvas/Support.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#190#191#0" expanded="true" />
+                    <element signature="e#218#219#0" expanded="true" />
+                    <element signature="e#252#253#0" expanded="true" />
+                    <element signature="e#350#351#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="DrawArea.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mycanvas/DrawArea.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3654">
+                  <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1240#1241#0" expanded="true" />
+                    <element signature="e#1291#1292#0" expanded="true" />
+                    <element signature="e#2654#2655#0" expanded="true" />
+                    <element signature="e#2691#2692#0" expanded="true" />
+                    <element signature="e#2718#2719#0" expanded="true" />
+                    <element signature="e#2759#2760#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mycanvas/Start.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#178#179#0" expanded="true" />
+                    <element signature="e#231#232#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Drawing.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/mycanvas/Drawing.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="901">
+                  <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ChangeManager.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mycanvas/ChangeManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JAVA/mycanvas.DrawArea" pinned="false" current-in-tab="false">
+            <entry file="uml://JAVA/mycanvas.DrawArea">
+              <provider selected="true" editor-type-id="UmlEditorProvider">
+                <state>
+                  <ID>JAVA</ID>
+                  <OriginalElement>mycanvas.DrawArea</OriginalElement>
+                  <nodes>
+                    <node x="1745.789639037433" y="297.0">java.awt.Container.WakingRunnable</node>
+                    <node x="1441.664639037433" y="396.0">java.awt.Container.MouseEventTargetFilter</node>
+                    <node x="1042.6850341651814" y="208.0">java.awt.Component.DummyRequestFocusController</node>
+                    <node x="574.9975341651814" y="208.0">java.awt.Component.BaselineResizeBehavior</node>
+                    <node x="77.65931372549005" y="95.0">java.beans.JavaBean</node>
+                    <node x="301.4350341651814" y="208.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+                    <node x="2011.9350341651814" y="0.0">java.awt.image.ImageObserver</node>
+                    <node x="2246.789639037433" y="208.0">java.awt.Component.FlipBufferStrategy</node>
+                    <node x="831.851700831848" y="396.0">javax.swing.JComponent.AccessibleJComponent</node>
+                    <node x="457.40931372549005" y="396.0">javax.swing.JComponent.IntVector</node>
+                    <node x="1915.789639037433" y="208.0">java.awt.Component.BltBufferStrategy</node>
+                    <node x="807.6850341651814" y="208.0">java.awt.Component.AccessibleAWTComponent</node>
+                    <node x="2259.039639037433" y="297.0">java.awt.Component.FlipSubRegionBufferStrategy</node>
+                    <node x="828.851700831848" y="475.0">javax.swing.JComponent.AccessibleJComponent.AccessibleFocusHandler</node>
+                    <node x="2427.789639037433" y="208.0">java.awt.Component.ProxyCapabilities</node>
+                    <node x="1157.261452762923" y="297.0">java.awt.Container.AccessibleAWTContainer</node>
+                    <node x="1304.6850341651816" y="208.0">java.awt.Component.SingleBufferStrategy</node>
+                    <node x="1500.6850341651816" y="208.0">java.awt.Container</node>
+                    <node x="1714.511452762923" y="396.0">java.awt.Container.DropTargetEventTargetFilter</node>
+                    <node x="582.40931372549" y="396.0">javax.swing.JComponent.ActionStandin</node>
+                    <node x="1927.039639037433" y="297.0">java.awt.Component.BltSubRegionBufferStrategy</node>
+                    <node x="382.6850341651814" y="101.0">javax.swing.JComponent</node>
+                    <node x="230.45586749851464" y="475.0">javax.swing.JPanel.AccessibleJPanel</node>
+                    <node x="95.03431372549005" y="475.0">mycanvas.DrawArea</node>
+                    <node x="1849.9350341651816" y="0.0">java.awt.MenuContainer</node>
+                    <node x="1046.851700831848" y="475.0">javax.swing.JComponent.AccessibleJComponent.AccessibleContainerHandler</node>
+                    <node x="146.90931372549005" y="114.0">javax.accessibility.Accessible</node>
+                    <node x="1199.011452762923" y="396.0">java.awt.Container.AccessibleAWTContainer.AccessibleContainerHandler</node>
+                    <node x="1921.4350341651816" y="89.0">java.awt.Component</node>
+                    <node x="1572.789639037433" y="297.0">java.awt.Container.EventTargetFilter</node>
+                    <node x="564.9975341651814" y="0.0">java.io.Serializable</node>
+                    <node x="2092.789639037433" y="208.0">java.awt.Component.AWTTreeLock</node>
+                    <node x="839.1384803921568" y="297.0">java.awt.Component.AccessibleAWTComponent.AccessibleAWTComponentHandler</node>
+                    <node x="-37.0" y="227.0">javax.swing.JComponent.KeyboardState</node>
+                    <node x="158.53431372549005" y="554.0">mycanvas.DrawArea.yMouse</node>
+                    <node x="287.40931372549005" y="79.0">javax.swing.JComponent.ReadObjectCallback</node>
+                    <node x="42.53431372548994" y="554.0">mycanvas.DrawArea.xMouse</node>
+                    <node x="591.1384803921568" y="297.0">java.awt.Component.AccessibleAWTComponent.AccessibleAWTFocusHandler</node>
+                    <node x="159.0" y="396.0">javax.swing.JPanel</node>
+                  </nodes>
+                  <notes />
+                  <edges>
+                    <edge source="javax.swing.JComponent" target="java.awt.Container">
+                      <point x="47.625" y="-14.5" />
+                      <point x="499.8100341651814" y="267.0" />
+                      <point x="1509.6850341651816" y="267.0" />
+                      <point x="-45.0" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
+                      <point x="0.0" y="-14.5" />
+                      <point x="203.0" y="346.0" />
+                      <point x="204.40931372549005" y="346.0" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent.KeyboardState" target="javax.swing.JComponent">
+                      <point x="34.75" y="-14.5" />
+                      <point x="104.25" y="356.0" />
+                      <point x="308.26836749851464" y="136.0" />
+                      <point x="-52.916666666666686" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+                      <point x="40.0" y="-14.5" />
+                      <point x="2021.4350341651816" y="69.0" />
+                      <point x="2081.9350341651816" y="69.0" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JPanel.AccessibleJPanel" target="javax.swing.JPanel">
+                      <point x="-38.25" y="-14.5" />
+                      <point x="268.70586749851464" y="450.0" />
+                      <point x="225.0" y="450.0" />
+                      <point x="22.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container.WakingRunnable" target="java.awt.Container">
+                      <point x="0.0" y="-14.5" />
+                      <point x="1821.289639037433" y="267.0" />
+                      <point x="1581.6850341651816" y="267.0" />
+                      <point x="27.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container.AccessibleAWTContainer.AccessibleContainerHandler" target="java.awt.Container.AccessibleAWTContainer">
+                      <point x="0.0" y="-14.5" />
+                      <point x="50.75" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.FlipSubRegionBufferStrategy" target="java.awt.Component.FlipBufferStrategy">
+                      <point x="-56.5" y="-14.5" />
+                      <point x="2315.539639037433" y="277.0" />
+                      <point x="2326.789639037433" y="277.0" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.ProxyCapabilities" target="java.awt.Component">
+                      <point x="0.0" y="-14.5" />
+                      <point x="2504.289639037433" y="138.0" />
+                      <point x="2035.980488710636" y="138.0" />
+                      <point x="54.545454545454504" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent.AccessibleJComponent" target="java.awt.Container.AccessibleAWTContainer">
+                      <point x="48.0" y="-14.5" />
+                      <point x="975.851700831848" y="376.0" />
+                      <point x="1208.011452762923" y="376.0" />
+                      <point x="-50.75" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent.ActionStandin" target="javax.swing.JComponent">
+                      <point x="0.0" y="-14.5" />
+                      <point x="649.90931372549" y="366.0" />
+                      <point x="483.9350341651814" y="366.0" />
+                      <point x="31.75" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JPanel" target="java.beans.JavaBean">
+                      <point x="-29.333333333333258" y="-14.5" />
+                      <point x="173.66666666666674" y="346.0" />
+                      <point x="105.40931372549005" y="346.0" />
+                      <point x="-26.75" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.BltSubRegionBufferStrategy" target="java.awt.Component">
+                      <point x="55.5" y="-14.5" />
+                      <point x="2093.539639037433" y="277.0" />
+                      <point x="2082.289639037433" y="277.0" />
+                      <point x="2082.289639037433" y="178.0" />
+                      <point x="1992.3441250742726" y="178.0" />
+                      <point x="10.909090909090992" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component" target="java.io.Serializable">
+                      <point x="-40.0" y="-14.5" />
+                      <point x="1941.4350341651816" y="59.0" />
+                      <point x="669.3975341651814" y="59.0" />
+                      <point x="46.39999999999998" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container.DropTargetEventTargetFilter" target="java.awt.Container.EventTargetFilter">
+                      <point x="-55.75" y="-14.5" />
+                      <point x="1770.261452762923" y="376.0" />
+                      <point x="1687.539639037433" y="376.0" />
+                      <point x="38.25" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTFocusHandler" target="java.awt.Component.AccessibleAWTComponent">
+                      <point x="0.0" y="-14.5" />
+                      <point x="705.1384803921568" y="257.0" />
+                      <point x="843.5183674985147" y="257.0" />
+                      <point x="-71.66666666666663" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent" target="java.beans.JavaBean">
+                      <point x="-47.625" y="-14.5" />
+                      <point x="404.5600341651814" y="277.0" />
+                      <point x="158.90931372549005" y="277.0" />
+                      <point x="26.75" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container.AccessibleAWTContainer" target="java.awt.Component.AccessibleAWTComponent">
+                      <point x="-50.75" y="-14.5" />
+                      <point x="1208.011452762923" y="257.0" />
+                      <point x="986.851700831848" y="257.0" />
+                      <point x="71.66666666666663" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.BltBufferStrategy" target="java.awt.Component">
+                      <point x="0.0" y="-14.5" />
+                      <point x="1993.789639037433" y="188.0" />
+                      <point x="1981.4350341651816" y="188.0" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent.AccessibleJComponent.AccessibleFocusHandler" target="javax.swing.JComponent.AccessibleJComponent">
+                      <point x="0.0" y="-14.5" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.AWTTreeLock" target="java.awt.Component">
+                      <point x="0.0" y="-14.5" />
+                      <point x="2159.789639037433" y="168.0" />
+                      <point x="2003.2532159833631" y="168.0" />
+                      <point x="21.818181818181756" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent.ReadObjectCallback" target="javax.swing.JComponent">
+                      <point x="0.0" y="-14.5" />
+                      <point x="261.90931372549005" y="156.0" />
+                      <point x="441.6017008318481" y="376.0" />
+                      <point x="-10.583333333333314" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.AccessibleAWTComponent" target="java.awt.Component">
+                      <point x="53.75" y="-14.5" />
+                      <point x="968.9350341651814" y="158.0" />
+                      <point x="1937.7986705288176" y="158.0" />
+                      <point x="-43.63636363636374" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
+                      <point x="29.333333333333343" y="-14.5" />
+                      <point x="232.33333333333337" y="366.0" />
+                      <point x="329.4350341651814" y="146.0" />
+                      <point x="-31.75" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container.AccessibleAWTContainer" target="java.awt.Container">
+                      <point x="50.75" y="-14.5" />
+                      <point x="1309.511452762923" y="277.0" />
+                      <point x="1527.6850341651816" y="277.0" />
+                      <point x="-27.0" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent.KeyboardState" target="java.io.Serializable">
+                      <point x="-34.75" y="-14.5" />
+                      <point x="34.75" y="59.0" />
+                      <point x="576.5975341651814" y="59.0" />
+                      <point x="-46.39999999999998" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.BaselineResizeBehavior" target="java.awt.Component">
+                      <point x="48.0" y="-14.5" />
+                      <point x="718.9975341651814" y="148.0" />
+                      <point x="1926.889579619727" y="148.0" />
+                      <point x="-54.545454545454504" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container.MouseEventTargetFilter" target="java.awt.Container">
+                      <point x="-48.5" y="-14.5" />
+                      <point x="1490.164639037433" y="376.0" />
+                      <point x="1536.761452762923" y="376.0" />
+                      <point x="1536.761452762923" y="277.0" />
+                      <point x="1545.6850341651816" y="277.0" />
+                      <point x="-9.0" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JPanel.AccessibleJPanel" target="javax.swing.JComponent.AccessibleJComponent">
+                      <point x="38.25" y="-14.5" />
+                      <point x="345.20586749851464" y="450.0" />
+                      <point x="863.851700831848" y="450.0" />
+                      <point x="-64.0" y="14.5" />
+                    </edge>
+                    <edge source="mycanvas.DrawArea" target="javax.swing.JPanel">
+                      <point x="0.0" y="-14.5" />
+                      <point x="148.53431372549005" y="450.0" />
+                      <point x="181.0" y="450.0" />
+                      <point x="-22.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.AccessibleAWTComponent" target="java.io.Serializable">
+                      <point x="-53.75" y="-14.5" />
+                      <point x="861.4350341651814" y="69.0" />
+                      <point x="646.1975341651814" y="69.0" />
+                      <point x="23.200000000000045" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container.EventTargetFilter" target="java.awt.Container">
+                      <point x="0.0" y="-14.5" />
+                      <point x="1649.289639037433" y="277.0" />
+                      <point x="1563.6850341651816" y="277.0" />
+                      <point x="9.0" y="14.5" />
+                    </edge>
+                    <edge source="mycanvas.DrawArea.xMouse" target="mycanvas.DrawArea">
+                      <point x="0.0" y="-14.5" />
+                      <point x="90.53431372548994" y="529.0" />
+                      <point x="121.78431372549005" y="529.0" />
+                      <point x="-26.75" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container.MouseEventTargetFilter" target="java.awt.Container.EventTargetFilter">
+                      <point x="48.5" y="-14.5" />
+                      <point x="1587.164639037433" y="376.0" />
+                      <point x="1611.039639037433" y="376.0" />
+                      <point x="-38.25" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTComponentHandler" target="java.awt.Component.AccessibleAWTComponent">
+                      <point x="1.1368683772161603E-13" y="-14.5" />
+                      <point x="970.6384803921569" y="257.0" />
+                      <point x="915.1850341651814" y="257.0" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.DummyRequestFocusController" target="java.awt.Component">
+                      <point x="0.0" y="-14.5" />
+                      <point x="1163.6850341651814" y="168.0" />
+                      <point x="1948.7077614379086" y="168.0" />
+                      <point x="-32.72727272727275" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent.IntVector" target="javax.swing.JComponent">
+                      <point x="0.0" y="-14.5" />
+                      <point x="509.90931372549005" y="376.0" />
+                      <point x="462.76836749851464" y="376.0" />
+                      <point x="10.583333333333314" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent.AccessibleJComponent" target="javax.swing.JComponent">
+                      <point x="-48.0" y="-14.5" />
+                      <point x="879.851700831848" y="356.0" />
+                      <point x="505.1017008318481" y="356.0" />
+                      <point x="52.916666666666686" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
+                      <point x="-15.875" y="-14.5" />
+                      <point x="436.3100341651814" y="267.0" />
+                      <point x="398.4350341651814" y="267.0" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component" target="java.awt.MenuContainer">
+                      <point x="0.0" y="-14.5" />
+                      <point x="1981.4350341651816" y="49.0" />
+                      <point x="1920.9350341651816" y="49.0" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.SingleBufferStrategy" target="java.awt.Component">
+                      <point x="0.0" y="-14.5" />
+                      <point x="1392.6850341651816" y="178.0" />
+                      <point x="1959.6168523469996" y="178.0" />
+                      <point x="-21.818181818181756" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.FlipBufferStrategy" target="java.awt.Component">
+                      <point x="0.0" y="-14.5" />
+                      <point x="2326.789639037433" y="158.0" />
+                      <point x="2014.1623068924541" y="158.0" />
+                      <point x="32.72727272727275" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container.DropTargetEventTargetFilter" target="java.awt.Container">
+                      <point x="55.75" y="-14.5" />
+                      <point x="1881.761452762923" y="376.0" />
+                      <point x="1907.289639037433" y="376.0" />
+                      <point x="1907.289639037433" y="257.0" />
+                      <point x="1599.6850341651816" y="257.0" />
+                      <point x="45.0" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent.AccessibleJComponent.AccessibleContainerHandler" target="javax.swing.JComponent.AccessibleJComponent">
+                      <point x="0.0" y="-14.5" />
+                      <point x="1157.351700831848" y="450.0" />
+                      <point x="991.851700831848" y="450.0" />
+                      <point x="64.0" y="14.5" />
+                    </edge>
+                    <edge source="mycanvas.DrawArea.yMouse" target="mycanvas.DrawArea">
+                      <point x="0.0" y="-14.5" />
+                      <point x="206.53431372549005" y="529.0" />
+                      <point x="175.28431372549005" y="529.0" />
+                      <point x="26.75" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.BaselineResizeBehavior" target="java.io.Serializable">
+                      <point x="-48.0" y="-14.5" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.BltSubRegionBufferStrategy" target="java.awt.Component.BltBufferStrategy">
+                      <point x="-55.5" y="-14.5" />
+                      <point x="1982.539639037433" y="277.0" />
+                      <point x="1993.789639037433" y="277.0" />
+                      <point x="0.0" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Container" target="java.awt.Component">
+                      <point x="0.0" y="-14.5" />
+                      <point x="1554.6850341651816" y="188.0" />
+                      <point x="1970.5259432560906" y="188.0" />
+                      <point x="-10.909090909090992" y="14.5" />
+                    </edge>
+                    <edge source="java.awt.Component.FlipSubRegionBufferStrategy" target="java.awt.Component">
+                      <point x="56.5" y="-14.5" />
+                      <point x="2428.539639037433" y="277.0" />
+                      <point x="2417.289639037433" y="277.0" />
+                      <point x="2417.289639037433" y="148.0" />
+                      <point x="2025.0713978015451" y="148.0" />
+                      <point x="43.63636363636351" y="14.5" />
+                    </edge>
+                    <edge source="javax.swing.JComponent" target="java.io.Serializable">
+                      <point x="15.875" y="-14.5" />
+                      <point x="468.0600341651814" y="257.0" />
+                      <point x="505.9350341651814" y="257.0" />
+                      <point x="505.9350341651814" y="69.0" />
+                      <point x="599.7975341651813" y="69.0" />
+                      <point x="-23.200000000000045" y="14.5" />
+                    </edge>
+                  </edges>
+                  <settings layout="Hierarchic Group" zoom="1.491729736328125" x="106.8870522288824" y="319.8870522288824" />
+                  <SelectedNodes />
+                  <Categories>
+                    <Category>Inner Classes</Category>
+                  </Categories>
+                  <SCOPE>All</SCOPE>
+                  <VISIBILITY>private</VISIBILITY>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jpg</find>
+      <find>strock</find>
+      <find>north</find>
+      <find>stroke</find>
+      <find>Settingitem</find>
+      <find>Chan</find>
+      <find>FontStyle</find>
+      <find>g2d</find>
+      <find>setF</find>
+      <find>Line</find>
+      <find>create</find>
+      <find>ge</find>
+      <find>stytle</find>
+      <find>MouseA</find>
+      <find>MouseB</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/minidrawpad/FileClass.java" />
+        <option value="$PROJECT_DIR$/src/minidrawpad/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/minidrawpad/Help.java" />
+        <option value="$PROJECT_DIR$/src/minidrawpad/MiniDrawPad.java" />
+        <option value="$PROJECT_DIR$/src/minidrawpad/DrawArea.java" />
+        <option value="$PROJECT_DIR$/src/minidrawpad/DrawPad.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/DrawPad.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/Start.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/UndoManager.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/Changeable.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/ChangeManager.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/DrawArea.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/FileSys.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/Support.java" />
+        <option value="$PROJECT_DIR$/src/mycanvas/Canvas.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-240" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myCanvas3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myCanvas3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myCanvas3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myCanvas3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myCanvas3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myCanvas3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mycanvas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myCanvas3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myCanvas3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mycanvas" type="462c0819:PsiDirectoryNode" />
+              <item name="Drawing.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="column selection mode&#9;ACTION&#9;EditorToggleColumnMode" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mycanvas.Start" />
+      <module name="myCanvas3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mycanvas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cc20417-9603-4b76-8af4-56c71d149ff5" name="Default" comment="" />
+      <created>1530347441237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530347441237</updated>
+      <workItem from="1530347445389" duration="4367000" />
+      <workItem from="1530504582304" duration="19118000" />
+      <workItem from="1530607782492" duration="6372000" />
+      <workItem from="1530616790532" duration="1189000" />
+      <workItem from="1530628009548" duration="12662000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43708000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-240" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.19066148" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15175097" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12864584" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.17174797" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12864584" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15175097" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.17174797" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32879376" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/FileSys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/DrawArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2718#2719#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JOptionPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7695">
+          <caret line="567" column="25" selection-start-line="567" selection-start-column="25" selection-end-line="567" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/ChangeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="117" column="20" lean-forward="true" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3720">
+          <caret line="248" column="67" selection-start-line="248" selection-start-column="67" selection-end-line="248" selection-end-column="67" />
+          <folding>
+            <element signature="e#6685#6686#0" expanded="true" />
+            <element signature="e#6742#6743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/FileSys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Changeable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JOptionPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7695">
+          <caret line="567" column="25" selection-start-line="567" selection-start-column="25" selection-end-line="567" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/ChangeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/DrawArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2718#2719#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+          <folding>
+            <element signature="e#6685#6686#0" expanded="true" />
+            <element signature="e#6742#6743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/FileSys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Changeable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/DrawArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2718#2719#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/ChangeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/DrawArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2718#2719#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/FileSys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/UndoManager.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3090">
+          <caret line="248" column="67" selection-start-line="248" selection-start-column="67" selection-end-line="248" selection-end-column="67" />
+          <folding>
+            <element signature="e#6685#6686#0" expanded="true" />
+            <element signature="e#6742#6743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JOptionPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7695">
+          <caret line="567" column="25" selection-start-line="567" selection-start-column="25" selection-end-line="567" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycanvas.FileSys">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycanvas.FileSys</OriginalElement>
+          <nodes>
+            <node x="" y="">mycanvas.FileSys</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="45.0" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycanvas.Oval">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycanvas.Oval</OriginalElement>
+          <nodes>
+            <node x="" y="">mycanvas.Oval</node>
+            <node x="" y="">mycanvas.Drawing</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="93.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycanvas.Line">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycanvas.Line</OriginalElement>
+          <nodes>
+            <node x="" y="">mycanvas.Line</node>
+            <node x="" y="">mycanvas.Drawing</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="93.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycanvas.Canvas">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycanvas.Canvas</OriginalElement>
+          <nodes>
+            <node x="1161.228896103896" y="415.0">java.awt.event.ActionListener</node>
+            <node x="0.0" y="316.0">java.beans.JavaBean</node>
+            <node x="767.7288961038961" y="316.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="602.7288961038961" y="316.0">javax.swing.SwingContainer</node>
+            <node x="393.25000000000006" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="836.5211038961039" y="494.0">mycanvas.Canvas</node>
+            <node x="409.25000000000006" y="158.0">java.awt.Container</node>
+            <node x="503.25000000000006" y="415.0">javax.swing.JFrame</node>
+            <node x="497.7288961038961" y="316.0">java.awt.Frame</node>
+            <node x="389.75000000000006" y="237.0">java.awt.Window</node>
+            <node x="127.00000000000006" y="316.0">javax.swing.RootPaneContainer</node>
+            <node x="553.25" y="0.0">java.awt.MenuContainer</node>
+            <node x="276.25000000000006" y="158.0">javax.accessibility.Accessible</node>
+            <node x="403.25000000000006" y="79.0">java.awt.Component</node>
+            <node x="257.25000000000006" y="0.0">java.io.Serializable</node>
+            <node x="1163.728896103896" y="316.0">java.util.EventListener</node>
+            <node x="981.7288961038961" y="316.0">javax.swing.WindowConstants</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="mycanvas.Canvas" target="javax.swing.JFrame">
+              <point x="-23.25" y="-14.5" />
+              <point x="859.7711038961039" y="469.0" />
+              <point x="549.25" y="469.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Frame" target="java.awt.Window">
+              <point x="-21.25" y="-14.5" />
+              <point x="518.9788961038961" y="291.0" />
+              <point x="438.75000000000006" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Frame" target="java.awt.MenuContainer">
+              <point x="21.25" y="-14.5" />
+              <point x="561.4788961038961" y="291.0" />
+              <point x="659.75" y="291.0" />
+              <point x="35.5" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.accessibility.Accessible">
+              <point x="-13.14285714285711" y="-14.5" />
+              <point x="536.1071428571429" y="375.0" />
+              <point x="304.50000000000006" y="375.0" />
+              <point x="-28.25" y="14.5" />
+            </edge>
+            <edge source="java.awt.Window" target="javax.accessibility.Accessible">
+              <point x="-24.5" y="-14.5" />
+              <point x="414.25000000000006" y="212.0" />
+              <point x="361.00000000000006" y="212.0" />
+              <point x="28.25" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="-40.0" y="-14.5" />
+              <point x="423.25000000000006" y="54.0" />
+              <point x="315.25000000000006" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="java.beans.JavaBean">
+              <point x="-39.428571428571445" y="-14.5" />
+              <point x="509.8214285714286" y="395.0" />
+              <point x="53.5" y="395.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="mycanvas.Canvas" target="java.awt.event.ActionListener">
+              <point x="23.25" y="-14.5" />
+              <point x="906.2711038961039" y="469.0" />
+              <point x="1229.728896103896" y="469.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.RootPaneContainer">
+              <point x="-26.285714285714334" y="-14.5" />
+              <point x="522.9642857142858" y="385.0" />
+              <point x="210.50000000000006" y="385.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Window" target="java.awt.Container">
+              <point x="24.5" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="40.0" y="-14.5" />
+              <point x="503.25000000000006" y="54.0" />
+              <point x="588.75" y="54.0" />
+              <point x="-35.5" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="java.awt.Frame">
+              <point x="0.0" y="-14.5" />
+              <point x="549.25" y="365.0" />
+              <point x="540.2288961038961" y="365.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.WindowConstants">
+              <point x="39.428571428571445" y="-14.5" />
+              <point x="588.6785714285716" y="395.0" />
+              <point x="1062.7288961038962" y="395.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.SwingContainer">
+              <point x="13.14285714285711" y="-14.5" />
+              <point x="562.3928571428571" y="375.0" />
+              <point x="675.2288961038961" y="375.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.event.ActionListener" target="java.util.EventListener">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="26.285714285714334" y="-14.5" />
+              <point x="575.5357142857144" y="385.0" />
+              <point x="864.7288961038961" y="385.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6338134950720242" x="358.66028708133973" y="-6.717703349282317" />
+          <SelectedNodes>
+            <node>mycanvas.Canvas</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycanvas.DrawArea">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycanvas.DrawArea</OriginalElement>
+          <nodes>
+            <node x="380.5119047619048" y="281.0">javax.swing.JComponent</node>
+            <node x="633.5" y="191.0">java.beans.JavaBean</node>
+            <node x="606.1815476190476" y="549.0">mycanvas.DrawArea</node>
+            <node x="419.50000000000006" y="191.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="160.00000000000006" y="0.0">java.awt.MenuContainer</node>
+            <node x="724.25" y="292.0">javax.accessibility.Accessible</node>
+            <node x="151.59821428571433" y="79.0">java.awt.Component</node>
+            <node x="0.0" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="322.00000000000006" y="0.0">java.io.Serializable</node>
+            <node x="157.59821428571433" y="180.0">java.awt.Container</node>
+            <node x="562.1815476190476" y="382.0">javax.swing.JPanel</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
+              <point x="-91.33333333333326" y="-58.5" />
+              <point x="607.8482142857143" y="357.0" />
+              <point x="461.0119047619048" y="357.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="20.125" y="-25.5" />
+              <point x="481.1369047619048" y="251.0" />
+              <point x="516.5" y="251.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.awt.Container">
+              <point x="-60.375" y="-25.5" />
+              <point x="400.6369047619048" y="261.0" />
+              <point x="228.59821428571433" y="261.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
+              <point x="91.33333333333337" y="-58.5" />
+              <point x="790.514880952381" y="357.0" />
+              <point x="780.75" y="357.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="0.0" y="-25.5" />
+              <point x="228.59821428571433" y="54.0" />
+              <point x="231.00000000000006" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="java.beans.JavaBean">
+              <point x="5.6843418860808015E-14" y="-58.5" />
+              <point x="699.1815476190477" y="357.0" />
+              <point x="713.75" y="357.0" />
+              <point x="26.75" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="-51.33333333333334" y="-25.5" />
+              <point x="177.26488095238096" y="54.0" />
+              <point x="70.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="mycanvas.DrawArea" target="javax.swing.JPanel">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="51.333333333333314" y="-25.5" />
+              <point x="279.93154761904765" y="54.0" />
+              <point x="351.00000000000006" y="54.0" />
+              <point x="-29.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.beans.JavaBean">
+              <point x="60.375" y="-25.5" />
+              <point x="521.3869047619048" y="261.0" />
+              <point x="660.25" y="261.0" />
+              <point x="-26.75" y="14.5" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.io.Serializable">
+              <point x="-20.125" y="-25.5" />
+              <point x="440.8869047619048" y="261.0" />
+              <point x="409.00000000000006" y="261.0" />
+              <point x="29.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9915958649513786" x="275.03408715481885" y="140.03408715481888" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/ChangeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycanvas.Drawing">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycanvas.Drawing</OriginalElement>
+          <nodes>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">mycanvas.Drawing</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.8000000000000007" x="267.2222222222221" y="181.66666666666657" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category />
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Changeable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/FileSys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycanvas.Canvas.CheckBoxHandler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycanvas.Canvas.CheckBoxHandler</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.EventListener</node>
+            <node x="" y="">java.awt.event.ItemListener</node>
+            <node x="" y="">mycanvas.Canvas.CheckBoxHandler</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="93.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category />
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycanvas.DrawArea.MouseA">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycanvas.DrawArea.MouseA</OriginalElement>
+          <nodes>
+            <node x="401.91666666666663" y="0.0">java.util.EventListener</node>
+            <node x="0.0" y="112.0">java.awt.event.MouseMotionListener</node>
+            <node x="328.5" y="523.0">mycanvas.DrawArea.MouseA</node>
+            <node x="297.0" y="268.0">java.awt.event.MouseAdapter</node>
+            <node x="297.0" y="123.0">java.awt.event.MouseWheelListener</node>
+            <node x="659.0" y="79.0">java.awt.event.MouseListener</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.awt.event.MouseWheelListener" target="java.util.EventListener">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="mycanvas.DrawArea.MouseA" target="java.awt.event.MouseAdapter">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="102.5" />
+            </edge>
+            <edge source="java.awt.event.MouseListener" target="java.util.EventListener">
+              <point x="0.0" y="-69.5" />
+              <point x="798.5" y="54.0" />
+              <point x="511.91666666666663" y="54.0" />
+              <point x="44.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.event.MouseAdapter" target="java.awt.event.MouseListener">
+              <point x="114.0" y="-102.5" />
+              <point x="582.0" y="243.0" />
+              <point x="798.5" y="243.0" />
+              <point x="0.0" y="69.5" />
+            </edge>
+            <edge source="java.awt.event.MouseAdapter" target="java.awt.event.MouseWheelListener">
+              <point x="0.0" y="-102.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="java.awt.event.MouseAdapter" target="java.awt.event.MouseMotionListener">
+              <point x="-114.0" y="-102.5" />
+              <point x="354.0" y="243.0" />
+              <point x="138.5" y="243.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="java.awt.event.MouseMotionListener" target="java.util.EventListener">
+              <point x="0.0" y="-36.5" />
+              <point x="138.5" y="54.0" />
+              <point x="423.91666666666663" y="54.0" />
+              <point x="-44.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1415149746598139" x="153.2469133806353" y="202.2469133806353" />
+          <SelectedNodes>
+            <node>java.util.EventListener</node>
+            <node>java.awt.event.MouseMotionListener</node>
+            <node>mycanvas.DrawArea.MouseA</node>
+            <node>java.awt.event.MouseAdapter</node>
+            <node>java.awt.event.MouseWheelListener</node>
+            <node>java.awt.event.MouseListener</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycanvas.DrawArea.MouseB">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycanvas.DrawArea.MouseB</OriginalElement>
+          <nodes>
+            <node x="72.5" y="0.0">java.util.EventListener</node>
+            <node x="0.0" y="79.0">java.awt.event.MouseMotionListener</node>
+            <node x="0.0" y="325.0">mycanvas.DrawArea.MouseB</node>
+            <node x="0.0" y="202.0">java.awt.event.MouseMotionAdapter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mycanvas.DrawArea.MouseB" target="java.awt.event.MouseMotionAdapter">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="java.awt.event.MouseMotionAdapter" target="java.awt.event.MouseMotionListener">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="java.awt.event.MouseMotionListener" target="java.util.EventListener">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2999114990234375" x="-67.37204634292354" y="78.62795365707646" />
+          <SelectedNodes>
+            <node>mycanvas.DrawArea.MouseB</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+            <Category />
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="225" column="12" lean-forward="true" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycanvas/DrawArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2718#2719#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
