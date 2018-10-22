@@ -1,0 +1,146 @@
+﻿/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    /*text styling */
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
+/*BG gradient */
+html {
+    height: 100%;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+}
+
+/* Calculator with box shadow for 3d effect */
+.calculator {
+    width: 280px;
+    height: auto;
+    margin: 10em auto;
+    padding: 20px;
+    padding-bottom: 9px;
+    background: #9dd2ea;
+    border-radius: 5px;
+    box-shadow: 0px 4px #70C9E6;
+}
+
+/* Inset shadow on the screen */
+.screen {
+    height: 40px;
+    width: 200px;
+    float: right;
+    margin-right: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    /* Typography */
+    font-size: 17px;
+    line-height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+/* Clear floats */
+.keys, .top {
+    overflow: hidden;
+}
+
+/* Applying same to the keys */
+.btn1, btn1.clear {
+    border: none;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    width: 66px;
+    height: 36px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 4px 11px 0;
+    color: #888;
+    line-height: 36px;
+    text-align: center;
+    /* prevent selection of text inside keys */
+    user-select: none;
+    /*css3 transitions */
+    transition: all 0.2s ease;
+}
+/*get rid of blue btn1 outline*/
+:focus {
+    outline: none;
+}
+
+::-moz-focus-inner {
+    border: 0;
+}
+
+/* style different type of keys (operators/evaluate/clear) differently */
+.operator {
+    background: #FFF0F5;
+    box-shadow: 0px 4px #FFAFCA;
+}
+
+.equal {
+    background: #f1ff92;
+    box-shadow: 0px 4px #9da853;
+    color: #888e5f;
+}
+
+.top .clear {
+    background: #ff9fa8;
+    box-shadow: 0px 4px #ff7c87;
+    color: white;
+}
+
+/* hover effects */
+.btn1:hover {
+    background: #9c89f6;
+    box-shadow: 0px 4px #6b54d3;
+    color: white;
+}
+
+.btn1.equal:hover {
+    background: #abb850;
+    box-shadow: 0px 4px #717a33;
+    color: white;
+}
+
+.btn1.operator:hover {
+    background: #FFAFCA;
+    box-shadow: 0px 4px #FF7CA8;
+}
+
+.btn1.clear:hover {
+    background: #f68991;
+    box-shadow: 0px 4px #d3545d;
+}
+
+/* Simulating "pressed" effect on active state of the keys by moving the keys down a bit */
+.btn1:active, btn1.clear:active {
+    box-shadow: 0px 0px #717a33;
+    top: 4px;
+}
+
+.btn1:active {
+    box-shadow: 0px 0px #6b54d3;
+    top: 4px;
+    transition: all 0.1s ease;
+}
+
+.btn1.equal:active {
+    box-shadow: 0px 0px #717a33;
+    top: 4px;
+}
+
+.btn1.operator:active {
+    box-shadow: 0px 0px #FF7CA8;
+    top: 4px;
+}
+
+.btn1.clear:active {
+    top: 4px;
+    box-shadow: 0px 0px white;
+}

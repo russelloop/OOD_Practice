@@ -1,0 +1,6 @@
+/Users/dashwood/Projects/ASP.NET/simpleCaculator/bin/simpleCaculator.dll
+/Users/dashwood/Projects/ASP.NET/simpleCaculator/bin/simpleCaculator.pdb
+/Users/dashwood/Projects/ASP.NET/simpleCaculator/obj/Debug/simpleCaculator.csprojAssemblyReference.cache
+/Users/dashwood/Projects/ASP.NET/simpleCaculator/obj/Debug/simpleCaculator.csproj.CoreCompileInputs.cache
+/Users/dashwood/Projects/ASP.NET/simpleCaculator/obj/Debug/simpleCaculator.dll
+/Users/dashwood/Projects/ASP.NET/simpleCaculator/obj/Debug/simpleCaculator.pdb
