@@ -1,0 +1,144 @@
+﻿
+:root {
+    --color-primary: #2eec96;
+    --selection-color: #abffd9;
+    --unitless-max-font-size: 18;
+}
+
+body {
+    padding: 2rem 1rem;
+    background-color: #2eec96;
+}
+
+form {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+form h1 {
+    width: 450px;
+    margin-bottom: 44px;
+    margin-left: 15px;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+}
+
+form p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 0.75rem;
+    margin: 0px 15px 0px 15px;
+    width: 450px;
+    height: 40px;
+}
+
+select {
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 0.75rem;
+    margin: 0px 15px 0px 15px;
+    width: 450px;
+    height: 40px;
+}
+
+.button-3d {
+    position: relative;
+    top: 0;
+    -webkit-box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-3d:hover, .button-3d:focus {
+    -webkit-box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-3d:active, .button-3d.active, .button-3d.is-active {
+    top: 5px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    -webkit-box-shadow: 0 2px 0 #bbbbbb, 0 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 0 #bbbbbb, 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    border-radius: 4px;
+    color: #666;
+    background-color: #EEE;
+    border-color: #EEE;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 350px;
+    margin:50px 65px 20px 65px;
+    padding: 0 40px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+
+.button-3d.button-primary {
+    -webkit-box-shadow: 0 7px 0 #0880d7, 0 8px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 7px 0 #0880d7, 0 8px 3px rgba(0, 0, 0, 0.3);
+}
+
+.button-3d.button-primary:hover, .button-3d.button-primary:focus {
+    -webkit-box-shadow: 0 7px 0 #077ace, 0 8px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 7px 0 #077ace, 0 8px 3px rgba(0, 0, 0, 0.3);
+}
+
+.button-3d.button-primary:active, .button-3d.button-primary.active, .button-3d.button-primary.is-active {
+    -webkit-box-shadow: 0 2px 0 #0662a6, 0 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 0 #0662a6, 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-primary {
+    background-color: #1B9AF7;
+    border-color: #1B9AF7;
+    color: #FFF;
+}
+
+.button-primary:visited {
+    color: #FFF;
+}
+
+.button-primary:hover, .button-primary:focus{
+    background-color: #4cb0f9;
+    border-color: #4cb0f9;
+    color: #FFF;
+}
+
+.button-primary:active, .button-primary.active, .button-primary.is-active {
+    background-color: #2798eb;
+    border-color: #2798eb;
+    color: #0880d7;
+}

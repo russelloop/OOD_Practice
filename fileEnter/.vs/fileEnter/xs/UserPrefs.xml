@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{CA63AF95-5450-40F1-993F-8126E1A25602}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Default.aspx">
+    <Files>
+      <File FileName="Default.aspx" Line="12" Column="20" />
+      <File FileName="Default.aspx.cs" Line="11" Column="44" />
+      <File FileName="Default.aspx.designer.cs" Line="21" Column="9" />
+      <File FileName="Info.aspx" Line="9" Column="22" />
+      <File FileName="Info.aspx.cs" Line="9" Column="45" />
+      <File FileName="pagecss.css" Line="36" Column="22" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.fileEnter.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.fileEnter PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

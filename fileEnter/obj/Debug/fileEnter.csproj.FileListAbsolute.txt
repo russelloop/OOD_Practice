@@ -1,0 +1,6 @@
+/Users/dashwood/Projects/ASP.NET/fileEnter/bin/fileEnter.dll
+/Users/dashwood/Projects/ASP.NET/fileEnter/bin/fileEnter.pdb
+/Users/dashwood/Projects/ASP.NET/fileEnter/obj/Debug/fileEnter.csprojAssemblyReference.cache
+/Users/dashwood/Projects/ASP.NET/fileEnter/obj/Debug/fileEnter.csproj.CoreCompileInputs.cache
+/Users/dashwood/Projects/ASP.NET/fileEnter/obj/Debug/fileEnter.dll
+/Users/dashwood/Projects/ASP.NET/fileEnter/obj/Debug/fileEnter.pdb
