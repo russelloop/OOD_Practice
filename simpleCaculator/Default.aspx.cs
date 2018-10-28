@@ -9,11 +9,13 @@ namespace simpleCaculator{
     public partial class Default : System.Web.UI.Page{
         int Operator_Type;
         double Final_Result;
+        bool IsDouble;
         bool Operated;      //Judge whether a num button is Click after an operator
         bool FOP = true;
         protected void Page_Load(object sender, EventArgs e){
             if(IsPostBack){
                 FOP = Convert.ToBoolean(Session["fop"]);
+                IsDouble = Convert.ToBoolean(Session["isdouble"]);
                 Final_Result = Convert.ToDouble(Session["result"]);
                 Operated = Convert.ToBoolean(Session["operated"]);
                 Operator_Type = Convert.ToInt32(Session["operateType"]);
@@ -23,11 +25,19 @@ namespace simpleCaculator{
             if (Operated){              //clear the screen if the num button is click after an operator
                 txtResult.Text = null;
                 Operated = false;       //may not be nessesary since it will be reloaded
+                IsDouble = false;
                 Session["operated"] = Operated;
+                Session["isdouble"] = IsDouble;
             }
-
             txtResult.Text += ((Button)sender).Text;
         }
+        protected void buttonDecimalClick(object sender, EventArgs e){
+            if(!IsDouble)
+                txtResult.Text += ".";
+            IsDouble = true;
+            Session["isdouble"] = IsDouble;
+        }
+
         protected void buttonOperatorClick(object sender, EventArgs e){
 
             string Operator = ((Button)sender).Text;
@@ -75,6 +85,7 @@ namespace simpleCaculator{
             if (Operator_Type == 4){
                 Final_Result /= Convert.ToDouble(txtResult.Text);
             }
+            IsDouble = false;
             Session["result"] = Final_Result;
             txtResult.Text = Final_Result.ToString();
         }
@@ -83,6 +94,8 @@ namespace simpleCaculator{
             Final_Result = 0;
             Session["operated"] = false;
             Session["result"] = Final_Result;
+            Session["fop"] = true;
+            Session["isdouble"] = false;
         }
     }
 }

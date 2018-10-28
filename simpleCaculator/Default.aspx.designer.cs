@@ -9,46 +9,46 @@
 //------------------------------------------------------------------------------
 
 namespace simpleCaculator {
-    
-    
-    public partial class Default {
-        
-        protected System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        protected System.Web.UI.WebControls.TextBox txtResult;
-        
-        protected System.Web.UI.WebControls.Button btnClear;
-        
-        protected System.Web.UI.WebControls.Button Button7;
-        
-        protected System.Web.UI.WebControls.Button Button8;
-        
-        protected System.Web.UI.WebControls.Button Button9;
-        
-        protected System.Web.UI.WebControls.Button btnAdd;
-        
-        protected System.Web.UI.WebControls.Button Button4;
-        
-        protected System.Web.UI.WebControls.Button Button5;
-        
-        protected System.Web.UI.WebControls.Button Button6;
-        
-        protected System.Web.UI.WebControls.Button btnSub;
-        
-        protected System.Web.UI.WebControls.Button Button1;
-        
-        protected System.Web.UI.WebControls.Button Button2;
-        
-        protected System.Web.UI.WebControls.Button Button3;
-        
-        protected System.Web.UI.WebControls.Button btnDiv;
-        
-        protected System.Web.UI.WebControls.Button Button0;
-        
-        protected System.Web.UI.WebControls.Button btnPoint;
-        
-        protected System.Web.UI.WebControls.Button btnequ;
-        
-        protected System.Web.UI.WebControls.Button btnMul;
-    }
+	
+	
+	public partial class Default {
+		
+		protected System.Web.UI.HtmlControls.HtmlForm form1;
+		
+		protected System.Web.UI.WebControls.TextBox txtResult;
+		
+		protected System.Web.UI.WebControls.Button btnClear;
+		
+		protected System.Web.UI.WebControls.Button Button7;
+		
+		protected System.Web.UI.WebControls.Button Button8;
+		
+		protected System.Web.UI.WebControls.Button Button9;
+		
+		protected System.Web.UI.WebControls.Button btnAdd;
+		
+		protected System.Web.UI.WebControls.Button Button4;
+		
+		protected System.Web.UI.WebControls.Button Button5;
+		
+		protected System.Web.UI.WebControls.Button Button6;
+		
+		protected System.Web.UI.WebControls.Button btnSub;
+		
+		protected System.Web.UI.WebControls.Button Button1;
+		
+		protected System.Web.UI.WebControls.Button Button2;
+		
+		protected System.Web.UI.WebControls.Button Button3;
+		
+		protected System.Web.UI.WebControls.Button btnDiv;
+		
+		protected System.Web.UI.WebControls.Button Button0;
+		
+		protected System.Web.UI.WebControls.Button btnPoint;
+		
+		protected System.Web.UI.WebControls.Button btnequ;
+		
+		protected System.Web.UI.WebControls.Button btnMul;
+	}
 }

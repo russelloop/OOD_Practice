@@ -32,7 +32,7 @@
                 </div>
                 <div class="row">
                      <asp:Button CssClass="btn1" ID="Button0" runat="server" Text="0" OnClick="buttonNumClick"/>
-                    <asp:Button CssClass="btn1" ID="btnPoint" runat="server" Text="." />
+                    <asp:Button CssClass="btn1" ID="btnPoint" runat="server" Text="." OnClick="buttonDecimalClick"/>
                     <asp:Button CssClass="btn1 equal" ID="btnequ" runat="server" Text="=" OnClick="buttonEqualsClick"/>
                     <asp:Button CssClass="btn1 operator" ID="btnMul" runat="server" Text="*" OnClick="buttonOperatorClick"/>
                 </div>
