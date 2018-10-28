@@ -1,33 +1,8 @@
 {
-    int a :
-    int a
-    double ;
-    float c;
-    a = -111;
-    switch(a){
-        case 1:{
-            if(a = 0){
-                read b;
-            }
-            else{
-                write;
-            }
-            break;
-        }
-        case 2:{
-            while(a >= b {
-                a = a + b * c;
-            }
-            break;
-        }
-        case 3:{
-            for(a = 1 a > c a = a + 1){
-                for(b = 1; b > c; b = b + 2){}
-            }
-            break;
-        }
-        default:{
-            
-        }
+    int simon;
+    int wyy;
+    simon = 1;
+    if(simon = 1){
+        wyy = simon;
     }
 }

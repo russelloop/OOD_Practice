@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{28C2FD69-E70B-4B3A-8A34-AD8F112961FA}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Default.aspx.cs">
     <Files>
-      <File FileName="Default.aspx.cs" Line="73" Column="41" />
+      <File FileName="Default.aspx.cs" Line="24" Column="26" />
       <File FileName="calCss.css" Line="51" Column="11" />
       <File FileName="../fileEnter/Default.aspx.cs" Line="14" Column="10" />
       <File FileName="Default.aspx.designer.cs" Line="55" Column="1" />
       <File FileName="../fileEnter/Info.aspx.cs" Line="9" Column="45" />
-      <File FileName="Default.aspx" Line="35" Column="1" NotebookId="1" />
+      <File FileName="Default.aspx" Line="42" Column="8" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/dashwood/Downloads/compiling_01 2/G_main.c
+/Users/dashwood/gitRepo/workBin/compiling_01/G_main.c
 compilint_02.h
-/Users/dashwood/Downloads/compiling_01 2/compilint_02.h
+/Users/dashwood/gitRepo/workBin/compiling_01/compilint_02.h
 
-/Users/dashwood/Downloads/compiling_01 2/Syntax.c
+/Users/dashwood/gitRepo/workBin/compiling_01/Syntax.c
 compilint_02.h
-/Users/dashwood/Downloads/compiling_01 2/compilint_02.h
+/Users/dashwood/gitRepo/workBin/compiling_01/compilint_02.h
 
-/Users/dashwood/Downloads/compiling_01 2/compiling_01.h
+/Users/dashwood/gitRepo/workBin/compiling_01/compiling_01.h
 stdio.h
 -
 ctype.h
@@ -22,7 +22,7 @@ ctype.h
 string.h
 -
 
-/Users/dashwood/Downloads/compiling_01 2/compilint_02.h
+/Users/dashwood/gitRepo/workBin/compiling_01/compilint_02.h
 string.h
 -
 stdio.h
@@ -30,11 +30,11 @@ stdio.h
 ctype.h
 -
 
-/Users/dashwood/Downloads/compiling_01 2/main.c
+/Users/dashwood/gitRepo/workBin/compiling_01/main.c
 compiling_01.h
-/Users/dashwood/Downloads/compiling_01 2/compiling_01.h
+/Users/dashwood/gitRepo/workBin/compiling_01/compiling_01.h
 
-/Users/dashwood/Downloads/compiling_01 2/wordConsole.c
+/Users/dashwood/gitRepo/workBin/compiling_01/wordConsole.c
 compiling_01.h
-/Users/dashwood/Downloads/compiling_01 2/compiling_01.h
+/Users/dashwood/gitRepo/workBin/compiling_01/compiling_01.h
 

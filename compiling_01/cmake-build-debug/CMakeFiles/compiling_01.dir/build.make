@@ -43,10 +43,10 @@ RM = "/Users/dashwood/Library/Application Support/JetBrains/Toolbox/apps/CLion/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/dashwood/Downloads/compiling_01 2"
+CMAKE_SOURCE_DIR = /Users/dashwood/gitRepo/workBin/compiling_01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/compiling_01.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/compiling_01.dir/flags.make
 
 CMakeFiles/compiling_01.dir/main.c.o: CMakeFiles/compiling_01.dir/flags.make
 CMakeFiles/compiling_01.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/compiling_01.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/compiling_01.dir/main.c.o   -c "/Users/dashwood/Downloads/compiling_01 2/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/compiling_01.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/compiling_01.dir/main.c.o   -c /Users/dashwood/gitRepo/workBin/compiling_01/main.c
 
 CMakeFiles/compiling_01.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/compiling_01.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/dashwood/Downloads/compiling_01 2/main.c" > CMakeFiles/compiling_01.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dashwood/gitRepo/workBin/compiling_01/main.c > CMakeFiles/compiling_01.dir/main.c.i
 
 CMakeFiles/compiling_01.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/compiling_01.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/dashwood/Downloads/compiling_01 2/main.c" -o CMakeFiles/compiling_01.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dashwood/gitRepo/workBin/compiling_01/main.c -o CMakeFiles/compiling_01.dir/main.c.s
 
 CMakeFiles/compiling_01.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/compiling_01.dir/main.c.o.provides.build: CMakeFiles/compiling_01.dir
 
 CMakeFiles/compiling_01.dir/wordConsole.c.o: CMakeFiles/compiling_01.dir/flags.make
 CMakeFiles/compiling_01.dir/wordConsole.c.o: ../wordConsole.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/compiling_01.dir/wordConsole.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/compiling_01.dir/wordConsole.c.o   -c "/Users/dashwood/Downloads/compiling_01 2/wordConsole.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/compiling_01.dir/wordConsole.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/compiling_01.dir/wordConsole.c.o   -c /Users/dashwood/gitRepo/workBin/compiling_01/wordConsole.c
 
 CMakeFiles/compiling_01.dir/wordConsole.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/compiling_01.dir/wordConsole.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/dashwood/Downloads/compiling_01 2/wordConsole.c" > CMakeFiles/compiling_01.dir/wordConsole.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dashwood/gitRepo/workBin/compiling_01/wordConsole.c > CMakeFiles/compiling_01.dir/wordConsole.c.i
 
 CMakeFiles/compiling_01.dir/wordConsole.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/compiling_01.dir/wordConsole.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/dashwood/Downloads/compiling_01 2/wordConsole.c" -o CMakeFiles/compiling_01.dir/wordConsole.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dashwood/gitRepo/workBin/compiling_01/wordConsole.c -o CMakeFiles/compiling_01.dir/wordConsole.c.s
 
 CMakeFiles/compiling_01.dir/wordConsole.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/compiling_01.dir/wordConsole.c.o.provides.build: CMakeFiles/compiling
 
 CMakeFiles/compiling_01.dir/Syntax.c.o: CMakeFiles/compiling_01.dir/flags.make
 CMakeFiles/compiling_01.dir/Syntax.c.o: ../Syntax.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/compiling_01.dir/Syntax.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/compiling_01.dir/Syntax.c.o   -c "/Users/dashwood/Downloads/compiling_01 2/Syntax.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/compiling_01.dir/Syntax.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/compiling_01.dir/Syntax.c.o   -c /Users/dashwood/gitRepo/workBin/compiling_01/Syntax.c
 
 CMakeFiles/compiling_01.dir/Syntax.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/compiling_01.dir/Syntax.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/dashwood/Downloads/compiling_01 2/Syntax.c" > CMakeFiles/compiling_01.dir/Syntax.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dashwood/gitRepo/workBin/compiling_01/Syntax.c > CMakeFiles/compiling_01.dir/Syntax.c.i
 
 CMakeFiles/compiling_01.dir/Syntax.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/compiling_01.dir/Syntax.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/dashwood/Downloads/compiling_01 2/Syntax.c" -o CMakeFiles/compiling_01.dir/Syntax.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dashwood/gitRepo/workBin/compiling_01/Syntax.c -o CMakeFiles/compiling_01.dir/Syntax.c.s
 
 CMakeFiles/compiling_01.dir/Syntax.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/compiling_01.dir/Syntax.c.o.provides.build: CMakeFiles/compiling_01.d
 
 CMakeFiles/compiling_01.dir/G_main.c.o: CMakeFiles/compiling_01.dir/flags.make
 CMakeFiles/compiling_01.dir/G_main.c.o: ../G_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/compiling_01.dir/G_main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/compiling_01.dir/G_main.c.o   -c "/Users/dashwood/Downloads/compiling_01 2/G_main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/compiling_01.dir/G_main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/compiling_01.dir/G_main.c.o   -c /Users/dashwood/gitRepo/workBin/compiling_01/G_main.c
 
 CMakeFiles/compiling_01.dir/G_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/compiling_01.dir/G_main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/dashwood/Downloads/compiling_01 2/G_main.c" > CMakeFiles/compiling_01.dir/G_main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dashwood/gitRepo/workBin/compiling_01/G_main.c > CMakeFiles/compiling_01.dir/G_main.c.i
 
 CMakeFiles/compiling_01.dir/G_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/compiling_01.dir/G_main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/dashwood/Downloads/compiling_01 2/G_main.c" -o CMakeFiles/compiling_01.dir/G_main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dashwood/gitRepo/workBin/compiling_01/G_main.c -o CMakeFiles/compiling_01.dir/G_main.c.s
 
 CMakeFiles/compiling_01.dir/G_main.c.o.requires:
 
@@ -169,7 +169,7 @@ compiling_01: CMakeFiles/compiling_01.dir/Syntax.c.o
 compiling_01: CMakeFiles/compiling_01.dir/G_main.c.o
 compiling_01: CMakeFiles/compiling_01.dir/build.make
 compiling_01: CMakeFiles/compiling_01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable compiling_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable compiling_01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compiling_01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/compiling_01.dir/clean:
 .PHONY : CMakeFiles/compiling_01.dir/clean
 
 CMakeFiles/compiling_01.dir/depend:
-	cd "/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/dashwood/Downloads/compiling_01 2" "/Users/dashwood/Downloads/compiling_01 2" "/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug" "/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug" "/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/CMakeFiles/compiling_01.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dashwood/gitRepo/workBin/compiling_01 /Users/dashwood/gitRepo/workBin/compiling_01 /Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug /Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug /Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug/CMakeFiles/compiling_01.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/compiling_01.dir/depend
 

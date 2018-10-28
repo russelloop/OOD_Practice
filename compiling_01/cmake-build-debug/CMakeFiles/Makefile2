@@ -54,10 +54,10 @@ RM = "/Users/dashwood/Library/Application Support/JetBrains/Toolbox/apps/CLion/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/dashwood/Downloads/compiling_01 2"
+CMAKE_SOURCE_DIR = /Users/dashwood/gitRepo/workBin/compiling_01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/compiling_01.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug"
 CMakeFiles/compiling_01.dir/all:
 	$(MAKE) -f CMakeFiles/compiling_01.dir/build.make CMakeFiles/compiling_01.dir/depend
 	$(MAKE) -f CMakeFiles/compiling_01.dir/build.make CMakeFiles/compiling_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5 "Built target compiling_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target compiling_01"
 .PHONY : CMakeFiles/compiling_01.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/compiling_01.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/compiling_01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compiling_01.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/dashwood/Downloads/compiling_01 2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dashwood/gitRepo/workBin/compiling_01/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/compiling_01.dir/rule
 
 # Convenience name for target.
