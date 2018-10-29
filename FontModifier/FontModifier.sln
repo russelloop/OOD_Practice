@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontModifier", "FontModifier.csproj", "{3B417A18-7F97-4B11-BA4F-B35F7EB2E535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontModifier.Tests", "FontModifier.Tests\FontModifier.Tests.csproj", "{FD808BAD-FA92-4EC4-911E-C8909F36ECA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B417A18-7F97-4B11-BA4F-B35F7EB2E535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B417A18-7F97-4B11-BA4F-B35F7EB2E535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B417A18-7F97-4B11-BA4F-B35F7EB2E535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B417A18-7F97-4B11-BA4F-B35F7EB2E535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD808BAD-FA92-4EC4-911E-C8909F36ECA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD808BAD-FA92-4EC4-911E-C8909F36ECA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD808BAD-FA92-4EC4-911E-C8909F36ECA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD808BAD-FA92-4EC4-911E-C8909F36ECA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

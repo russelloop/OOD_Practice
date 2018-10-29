@@ -1,0 +1,6 @@
+/Users/dashwood/Projects/ASP.NET/FontModifier/bin/FontModifier.dll
+/Users/dashwood/Projects/ASP.NET/FontModifier/bin/FontModifier.pdb
+/Users/dashwood/Projects/ASP.NET/FontModifier/obj/Debug/FontModifier.csprojAssemblyReference.cache
+/Users/dashwood/Projects/ASP.NET/FontModifier/obj/Debug/FontModifier.csproj.CoreCompileInputs.cache
+/Users/dashwood/Projects/ASP.NET/FontModifier/obj/Debug/FontModifier.dll
+/Users/dashwood/Projects/ASP.NET/FontModifier/obj/Debug/FontModifier.pdb
