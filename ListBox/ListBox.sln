@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "ListBox.csproj", "{2DA0495B-C454-4004-BDEA-94F50EE05C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox.Tests", "ListBox.Tests\ListBox.Tests.csproj", "{E3262F9F-8350-464F-9456-07BDB09A2453}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{236540CE-36EF-4490-ABF7-B61CF429118C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DA0495B-C454-4004-BDEA-94F50EE05C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA0495B-C454-4004-BDEA-94F50EE05C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA0495B-C454-4004-BDEA-94F50EE05C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA0495B-C454-4004-BDEA-94F50EE05C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3262F9F-8350-464F-9456-07BDB09A2453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3262F9F-8350-464F-9456-07BDB09A2453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3262F9F-8350-464F-9456-07BDB09A2453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3262F9F-8350-464F-9456-07BDB09A2453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

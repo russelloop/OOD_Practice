@@ -1,0 +1,31 @@
+﻿.drop {
+    width: 300px;
+    height: 400px;
+}
+
+.listgroup {
+    margin-left: 450px;
+    margin-top: 200px;
+}
+
+.ADButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.RMButton {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

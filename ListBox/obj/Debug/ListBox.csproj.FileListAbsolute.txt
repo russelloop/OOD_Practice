@@ -1,0 +1,6 @@
+/Users/dashwood/Projects/ASP.NET/ListBox/bin/ListBox.dll
+/Users/dashwood/Projects/ASP.NET/ListBox/bin/ListBox.pdb
+/Users/dashwood/Projects/ASP.NET/ListBox/obj/Debug/ListBox.csprojAssemblyReference.cache
+/Users/dashwood/Projects/ASP.NET/ListBox/obj/Debug/ListBox.csproj.CoreCompileInputs.cache
+/Users/dashwood/Projects/ASP.NET/ListBox/obj/Debug/ListBox.dll
+/Users/dashwood/Projects/ASP.NET/ListBox/obj/Debug/ListBox.pdb
