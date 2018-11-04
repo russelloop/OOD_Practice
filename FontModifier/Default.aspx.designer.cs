@@ -17,8 +17,6 @@ namespace FontModifier {
         
         protected System.Web.UI.WebControls.Label ShowText;
         
-        protected System.Web.UI.WebControls.TextBox TextBox1;
-        
         protected System.Web.UI.WebControls.RadioButton RadioButton1;
         
         protected System.Web.UI.WebControls.RadioButtonList RadioButtonList;

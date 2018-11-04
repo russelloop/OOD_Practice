@@ -7,41 +7,44 @@ namespace FontModifier
 
     public partial class Default : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e){
-            if(IsPostBack){
-                ShowText.Text = Convert.ToString(Session["inputText"]);
-            }
-        }
-        protected void TBChanged (object sender, EventArgs e){
-            Session["inputText"] = TextBox1.Text;
-        }
 
         protected void RBChanged1(object sender, EventArgs e){
-            ShowText.Style.Remove("color");
             if (RadioButton1.Checked == true){
-                ShowText.Style.Add("color", "green");
+                ShowText.ForeColor = System.Drawing.Color.Green;
             }
         }
 
         protected void RBLChanged1(object sender, EventArgs e){
-            ShowText.Style.Remove("color");
-            if (red.Selected == true){
-                ShowText.Style.Add("color", "red");
+
+            if (RadioButtonList.SelectedValue == "1"){
+                ShowText.ForeColor = System.Drawing.Color.Red;
             }
-            if (blue.Selected == true){
-                ShowText.Style.Add("color", "blue");
+            if (RadioButtonList.SelectedValue == "2"){
+                ShowText.ForeColor = System.Drawing.Color.Blue;
             }
-            if (yellow.Selected == true){
-                ShowText.Style.Add("color", "yellow");
+            if  (RadioButtonList.SelectedValue == "3"){
+                ShowText.ForeColor = System.Drawing.Color.Yellow;
             }
+
         }
 
         protected void CBChanged1(object sender, EventArgs e){
-
+            if(CheckBox.Checked == true){
+                ShowText.Font.Underline = true;
+            }
+            else
+                ShowText.Font.Underline = false;
         }
 
         protected void CBLChanged1(object sender, EventArgs e){
+            if (CheckBoxList1.Items[0].Selected == true){
+                ShowText.Font.Bold = true;
 
+            }
+
+            if (CheckBoxList1.Items[1].Selected == true){
+                ShowText.Font.Italic = true;
+            }
         }
     }
 }
