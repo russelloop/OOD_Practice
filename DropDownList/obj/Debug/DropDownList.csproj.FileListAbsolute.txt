@@ -1,0 +1,6 @@
+/Users/dashwood/Projects/ASP.NET/DropDownList/bin/DropDownList.dll
+/Users/dashwood/Projects/ASP.NET/DropDownList/bin/DropDownList.pdb
+/Users/dashwood/Projects/ASP.NET/DropDownList/obj/Debug/DropDownList.csprojAssemblyReference.cache
+/Users/dashwood/Projects/ASP.NET/DropDownList/obj/Debug/DropDownList.csproj.CoreCompileInputs.cache
+/Users/dashwood/Projects/ASP.NET/DropDownList/obj/Debug/DropDownList.dll
+/Users/dashwood/Projects/ASP.NET/DropDownList/obj/Debug/DropDownList.pdb
