@@ -76,25 +76,32 @@ simple Caculator with a fancy look (2018.10)
 
 ![using ASP.NET](https://img.shields.io/badge/using-ASP.NET-red.svg)
 
-browsing pics using ASP.NET Web Controler
+browsing pics using ASP.NET Web Controler (2018.10)
 
 ### Font Modifier
 ——————————————————————
 
 ![using ASP.NET](https://img.shields.io/badge/using-ASP.NET-red.svg)
 
-simple practise using ASP.NET Web Controler
+simple practise using ASP.NET Web Controler (2018.10)
 
 ### ListBox
 ——————————————————————
 
 ![using ASP.NET](https://img.shields.io/badge/using-ASP.NET-red.svg)
 
-simple practise using ASP.NET Web Controler
+simple practise using ASP.NET Web Controler (2018.11)
 
 ### DropDownList
 ——————————————————————
 
 ![using ASP.NET](https://img.shields.io/badge/using-ASP.NET-red.svg)
 
-simple practise using ASP.NET Web Controler
+simple practise using ASP.NET Web Controler (2018.11)
+
+### InfoValidator
+——————————————————————
+
+![using ASP.NET](https://img.shields.io/badge/using-ASP.NET-red.svg)
+
+simple validator of text-in content on web (2018.11)
