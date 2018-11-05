@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{7BC100DF-84B4-4872-B114-3A3AA9A5A208}|">
   <MonoDevelop.Ide.ItemProperties.DropDownList PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Default.aspx.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Default.aspx">
     <Files>
-      <File FileName="Default.aspx" Line="18" Column="45" />
+      <File FileName="Default.aspx" Line="8" Column="11" />
       <File FileName="Default.aspx.cs" Line="12" Column="24" />
+      <File FileName="DropCss.css" Line="1" Column="5" />
+      <File FileName="../ImageSalon/BoxCss.css" Line="6" Column="29" />
+      <File FileName="../fileEnter/Default.aspx" Line="15" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
