@@ -43,6 +43,7 @@
     <Content Include="picture\Lighthouse.jpg" />
     <Content Include="picture\Penguins.jpg" />
     <Content Include="picture\Tulips.jpg" />
+    <Content Include="BoxCss.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">

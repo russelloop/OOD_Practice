@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{F2175102-2072-41FF-9999-966362E54F5F}|">
   <MonoDevelop.Ide.ItemProperties.ImageSalon.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Default.aspx.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Default.aspx">
     <Files>
-      <File FileName="Default.aspx" Line="8" Column="38" />
+      <File FileName="Default.aspx" Line="11" Column="74" />
       <File FileName="Default.aspx.cs" Line="19" Column="10" />
       <File FileName="Default.aspx.designer.cs" Line="15" Column="4" />
+      <File FileName="BoxCss.css" Line="11" Column="10" />
+      <File FileName="../simpleCaculator/Default.aspx" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
