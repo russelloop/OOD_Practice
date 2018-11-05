@@ -36,6 +36,7 @@
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
+    <Content Include="SeterCss.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">

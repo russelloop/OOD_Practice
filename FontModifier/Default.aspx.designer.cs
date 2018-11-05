@@ -27,8 +27,10 @@ namespace FontModifier {
         
         protected System.Web.UI.WebControls.ListItem yellow;
         
-        protected System.Web.UI.WebControls.CheckBox CheckBox;
+        protected System.Web.UI.WebControls.CheckBox CheckBox1;
         
-        protected System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
+        protected System.Web.UI.WebControls.CheckBox CheckBox2;
+        
+        protected System.Web.UI.WebControls.CheckBox CheckBox3;
     }
 }

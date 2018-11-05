@@ -7,7 +7,10 @@ namespace FontModifier
 
     public partial class Default : System.Web.UI.Page
     {
-
+        protected void Page_Load(object sender, EventArgs e){
+            if(IsPostBack){
+            }
+        }
         protected void RBChanged1(object sender, EventArgs e){
             if (RadioButton1.Checked == true){
                 ShowText.ForeColor = System.Drawing.Color.Green;
@@ -29,22 +32,41 @@ namespace FontModifier
         }
 
         protected void CBChanged1(object sender, EventArgs e){
-            if(CheckBox.Checked == true){
+            if(CheckBox1.Checked == true){
                 ShowText.Font.Underline = true;
             }
             else
                 ShowText.Font.Underline = false;
         }
 
-        protected void CBLChanged1(object sender, EventArgs e){
-            if (CheckBoxList1.Items[0].Selected == true){
+        protected void CBChanged2(object sender, EventArgs e)
+        {
+            if (CheckBox2.Checked == true)
+            {
                 ShowText.Font.Bold = true;
-
             }
+            else
+                ShowText.Font.Bold = false;
+        }
 
-            if (CheckBoxList1.Items[1].Selected == true){
+        protected void CBChanged3(object sender, EventArgs e)
+        {
+            if (CheckBox3.Checked == true)
+            {
                 ShowText.Font.Italic = true;
             }
+            else
+                ShowText.Font.Italic = false;
         }
+        //protected void CBLChanged1(){
+        //    if (CheckBoxList1.Items[0].Selected == true){
+        //        ShowText.Font.Bold = true;
+
+        //    }
+
+        //    if (CheckBoxList1.Items[1].Selected == true){
+        //        ShowText.Font.Italic = true;
+        //    }
+        //}
     }
 }
