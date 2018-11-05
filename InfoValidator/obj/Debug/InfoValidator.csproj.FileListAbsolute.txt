@@ -1,0 +1,6 @@
+/Users/dashwood/Projects/ASP.NET/InfoValidator/bin/InfoValidator.dll
+/Users/dashwood/Projects/ASP.NET/InfoValidator/bin/InfoValidator.pdb
+/Users/dashwood/Projects/ASP.NET/InfoValidator/obj/Debug/InfoValidator.csprojAssemblyReference.cache
+/Users/dashwood/Projects/ASP.NET/InfoValidator/obj/Debug/InfoValidator.csproj.CoreCompileInputs.cache
+/Users/dashwood/Projects/ASP.NET/InfoValidator/obj/Debug/InfoValidator.dll
+/Users/dashwood/Projects/ASP.NET/InfoValidator/obj/Debug/InfoValidator.pdb
