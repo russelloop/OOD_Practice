@@ -1,24 +1,12 @@
 ﻿<Properties StartupConfiguration="{2DA0495B-C454-4004-BDEA-94F50EE05C97}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="ListBox.css">
     <Files>
-      <File FileName="Default.aspx" Line="20" Column="87" />
+      <File FileName="Default.aspx" Line="10" Column="24" />
       <File FileName="../simpleCaculator/Default.aspx" Line="6" Column="64" />
       <File FileName="../fileEnter/pagecss.css" Line="1" Column="1" />
-      <File FileName="ListBox.css" Line="14" Column="18" />
+      <File FileName="ListBox.css" Line="6" Column="13" />
       <File FileName="Default.aspx.cs" Line="17" Column="17" NotebookId="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ListBox" expanded="True">
-            <Node name="ListBox" expanded="True">
-              <Node name="Default.aspx" expanded="True" />
-              <Node name="ListBox.css" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ListBox PreferredExecutionTarget="MonoDevelop.Default" />
