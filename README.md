@@ -105,3 +105,12 @@ simple practise using ASP.NET Web Controler (2018.11)
 ![using ASP.NET](https://img.shields.io/badge/using-ASP.NET-red.svg)
 
 simple validator of text-in content on web (2018.11)
+
+### Strategy Pattern
+——————————————————————
+
+![using Java](https://img.shields.io/badge/madewith-Java-yellow.svg)
+![using Pattern](https://img.shields.io/badge/using-Pattern-orange.svg)
+
+sample from HeadFirst introducing strategy pattern (2018.11)
+
