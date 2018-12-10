@@ -114,3 +114,10 @@ simple validator of text-in content on web (2018.11)
 
 sample from HeadFirst introducing strategy pattern (2018.11)
 
+### First Android test
+——————————————————————
+
+![develop in Android](https://img.shields.io/badge/develop-Android-brightgreen.svg)
+
+first little Android app (2018.12)
+
