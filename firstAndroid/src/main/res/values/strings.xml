@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sensor</string>
+    <string name="button_all">Show All Sensor</string>
+    <string name="button_Shine">Show Light Sensor</string>
+    <string name="button_GPS">Show GPS</string>
+    <string name="text01">null</string>
+</resources>
