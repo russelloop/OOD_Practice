@@ -17,12 +17,19 @@ public class MajComposite extends JComponent{
     }
 
     private void Init(Frame frame){
-        RectItem mainRect = new RectItem(new Point2D.Double(200, 350), 600, 300);
-        add(mainRect, BorderLayout.CENTER);
-        mainRect.setBounds(300, 0, 1400, 1000);
-        TextItem heightCoor1 = new TextItem(new Point2D.Double(200, 350), 100, 50, frame);
+
+        ProItem proitem = new ProItem(new Point2D.Double(0, 350), 400, 500);
+        add(proitem, BorderLayout.CENTER);
+        proitem.setBounds(300, 0, 700, 1000);
+
+        CoordinateItem heightCoor1 = new CoordinateItem(new Point2D.Double(100, 350), 100, 50, frame);
         add(heightCoor1, BorderLayout.WEST);
-        heightCoor1.setBounds(0, 0, 400, 1000);
-        mainRect.addObserver(heightCoor1);
+        heightCoor1.setBounds(0, 0, 300, 1000);
+        proitem.addObserver(heightCoor1);
+
+        legendItem legend = new legendItem(new Point2D.Double(0, 350), 300, 300);
+        add(legend);
+        legend.setBounds(1000, 0, 600, 1000);
+        proitem.addObserver(legend);
     }
 }

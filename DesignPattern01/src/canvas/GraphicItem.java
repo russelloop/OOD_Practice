@@ -6,6 +6,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.geom.Ellipse2D;
+import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
@@ -14,17 +15,17 @@ public class GraphicItem extends JComponent{
 
     private Rectangle2D rectangle;
     private Point2D startPoint, leftUpPoint, leftDownPoint, rightUpPoint, rightDownPoint;
-    private Ellipse2D leftUpCorner, leftDownCorner, rightUpCorner, rightDownCorner;
+    private Ellipse2D leftUpVertex, leftDownVertex, rightUpVertex, rightDownVertex;
     private double width, height;
     private ComponentFactory factory;
     private int stage = 0;
     private int click = 0;
-    public ArrayList<Ellipse2D> conerS;
+    public ArrayList<Ellipse2D> cS;
 
     public GraphicItem(){}
 
     public GraphicItem(Point2D startPoint, double width, double height){
-        conerS = new ArrayList<>();
+        cS = new ArrayList<>();
         factory = new ComponentFactory();
         this.startPoint = startPoint;
         this.width = width;
@@ -34,6 +35,7 @@ public class GraphicItem extends JComponent{
         addMouseListener(new MouseHandler());
         addMouseMotionListener(new MouseMotionHandler());
     }
+
 
     public void setMySize(double width, double height ) {
         this.width = width;
@@ -57,13 +59,13 @@ public class GraphicItem extends JComponent{
     }
 
     @Override
-    protected void paintComponent(Graphics g) {
-        Graphics2D graphics2D = (Graphics2D) g;
+    protected void paintComponent(Graphics grap) {
+        Graphics2D drawer = (Graphics2D) grap;
         initUi();
-        graphics2D.draw(rectangle);
+        drawer.draw(rectangle);
         if(click == 1){
-            for(Ellipse2D e : conerS){
-                graphics2D.fill(e);
+            for(Ellipse2D e : cS){
+                drawer.fill(e);
             }
         }
     }
@@ -74,34 +76,34 @@ public class GraphicItem extends JComponent{
         leftUpPoint = (Point2D) factory.makeComponent("point");
         leftUpPoint.setLocation(rectangle.getX(), rectangle.getY());
         // use the point to create corner
-        leftUpCorner = createCorners(leftUpPoint);
-        conerS.add(leftUpCorner);
+        leftUpVertex = createVertexs(leftUpPoint);
+        cS.add(leftUpVertex);
         // repeat
         leftDownPoint = (Point2D) factory.makeComponent("point");
         leftDownPoint.setLocation(leftUpPoint.getX(), leftUpPoint.getY() + rectangle.getHeight());
         //
-        leftDownCorner = createCorners(leftDownPoint);
-        conerS.add(leftDownCorner);
+        leftDownVertex = createVertexs(leftDownPoint);
+        cS.add(leftDownVertex);
         //
         rightUpPoint = (Point2D) factory.makeComponent("point");
         rightUpPoint.setLocation(leftUpPoint.getX() + rectangle.getWidth(), leftUpPoint.getY());
-        rightUpCorner = createCorners(rightUpPoint);
-        conerS.add(rightUpCorner);
+        rightUpVertex = createVertexs(rightUpPoint);
+        cS.add(rightUpVertex);
         //
         rightDownPoint = (Point2D)factory.makeComponent("point");
         rightDownPoint.setLocation(leftUpPoint.getX() + rectangle.getWidth(), leftUpPoint.getY() + rectangle.getHeight());
-        rightDownCorner = createCorners(rightDownPoint);
-        conerS.add(rightDownCorner);
+        rightDownVertex = createVertexs(rightDownPoint);
+        cS.add(rightDownVertex);
     }
 
-    private Ellipse2D createCorners(Point2D p){
+    private Ellipse2D createVertexs(Point2D p){
         Ellipse2D e = (Ellipse2D)factory.makeComponent("elli");
         e.setFrame(p.getX() - 5, p.getY() - 5, 10 ,10);
         return e;
     }
 
     private Ellipse2D findPoints(Point2D p){
-        for(Ellipse2D r : conerS){
+        for(Ellipse2D r : cS){
             if(r.contains(p)){
                 return r;
             }
@@ -156,13 +158,13 @@ public class GraphicItem extends JComponent{
                 setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             } else if (findPoints(e.getPoint()) != null) {
                 setCursor(Cursor.getPredefinedCursor(Cursor.CROSSHAIR_CURSOR));
-                if (leftUpCorner.contains(e.getPoint()))
+                if (leftUpVertex.contains(e.getPoint()))
                     stage = 2;
-                if (leftDownCorner.contains(e.getPoint()))
+                if (leftDownVertex.contains(e.getPoint()))
                     stage = 4;
-                if (rightUpCorner.contains(e.getPoint()))
+                if (rightUpVertex.contains(e.getPoint()))
                     stage = 6;
-                if (rightDownCorner.contains(e.getPoint()))
+                if (rightDownVertex.contains(e.getPoint()))
                     stage = 8;
             } else {
                 stage = 0;
@@ -172,7 +174,7 @@ public class GraphicItem extends JComponent{
 
         @Override
         public void mouseDragged(MouseEvent e) {
-            conerS.clear();
+            cS.clear();
             switch (stage) {
                 case 1: {
                     rectangle.setFrame(e.getX() - width / 2, e.getY() - height / 2, width, height);

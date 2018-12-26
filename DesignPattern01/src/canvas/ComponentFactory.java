@@ -1,5 +1,6 @@
 package canvas;
 import java.awt.geom.Ellipse2D;
+import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.Point2D;
 
@@ -16,6 +17,9 @@ public class ComponentFactory extends ABComponentFactory{
             }
             case "elli":{
                 return new Ellipse2D.Double();
+            }
+            case  "line":{
+                return new Line2D.Double();
             }
         }
         return null;
