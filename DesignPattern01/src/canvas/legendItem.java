@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class legendItem extends GraphicItem implements Observer{
     private Rectangle2D frame;
     private Point2D start;
-    private int dist, ynum;
+    private int d, ynum;
     private double mywidth, myheight;
     private ComponentFactory factory;
     private ArrayList<Rectangle2D> rectangle2DS;
@@ -23,24 +23,24 @@ public class legendItem extends GraphicItem implements Observer{
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         Graphics2D drawer = (Graphics2D)g;
-        g.setColor(Color.blue);
+        g.setColor(Color.black);
         for(Rectangle2D r : rectangle2DS){
             drawer.fill(r);
         }
     }
 
     private void initRect(int count) {
-        dist = 100;
+        d = 100;
         ynum = 0;
         frame = super.getRectangle();
         start = (Point2D) factory.makeComponent("point");
-        start.setLocation(frame.getX() + 100, frame.getY() + dist);
+        start.setLocation(frame.getX() + 20, frame.getY() + d);
         for (int n = 0; n < count; n++) {
             Rectangle2D rect = (Rectangle2D) factory.makeComponent("rect");
             rect.setFrame(start.getX(), start.getY(), 10, 10);
             rectangle2DS.add(rect);
-            dist += 20;
-            start.setLocation(frame.getX() + 20, frame.getY() + dist);
+            d += 20;
+            start.setLocation(frame.getX() + 20, frame.getY() + d);
         }
     }
 

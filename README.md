@@ -121,3 +121,9 @@ sample from HeadFirst introducing strategy pattern (2018.11)
 
 first little Android app (2018.12)
 
+### DesignPattern01
+——————————————————————
+
+![using Java](https://img.shields.io/badge/madewith-Java-yellow.svg)
+
+homework of Design-Pattern Course

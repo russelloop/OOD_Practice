@@ -7,20 +7,11 @@ import java.awt.geom.Point2D;
 public class ComponentFactory extends ABComponentFactory{
     @Override
     public Object makeComponent(String str){
-
         switch (str){
-            case "rect":{
-                return new Rectangle2D.Double();
-            }
-            case "point":{
-                return new Point2D.Double();
-            }
-            case "elli":{
-                return new Ellipse2D.Double();
-            }
-            case  "line":{
-                return new Line2D.Double();
-            }
+            case "rect":{ return new Rectangle2D.Double(); }
+            case "point":{ return new Point2D.Double(); }
+            case "elli":{ return new Ellipse2D.Double(); }
+            case  "line":{ return new Line2D.Double(); }
         }
         return null;
     }

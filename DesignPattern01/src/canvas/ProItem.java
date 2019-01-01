@@ -107,5 +107,18 @@ public class ProItem extends GraphicItem implements Observable {
         public void mouseMoved(MouseEvent e) {
 
         }
+        public void mousePressed(MouseEvent e) {
+
+        }
+
+//        @Override
+//        public void mouseClicked(MouseEvent e) {
+//            if(rectangle.contains(e.getPoint())){
+//                if(e.getClickCount() == 1){
+//                    //xxxxxx
+//                    repaint();
+//                }
+//            }
+//        }
     }
 }

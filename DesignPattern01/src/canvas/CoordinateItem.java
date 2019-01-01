@@ -108,7 +108,7 @@ public class CoordinateItem extends GraphicItem implements Observer{
 
         @Override
         public void mouseClicked(MouseEvent e) {
-            if(rectangle.contains(e.getPoint())){
+            if(rectangleUp.contains(e.getPoint()) || rectangleDown.contains(e.getPoint())){
                 if(e.getClickCount() >= 2)
                     isShowDialog();
             }
